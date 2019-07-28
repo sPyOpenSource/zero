@@ -19,12 +19,15 @@ public interface CPUManager extends Portal {
     /** clear the flag that tells if the thread was unblocked when RUNNABLE */
     void clearUnblockFlag();
 
-    /** wait until thread blocks */
+    /** wait until thread blocks
+     * @param thread */
     void waitUntilBlocked(CPUState thread);
 
-    /** wait until the given thread terminates */
+    /** wait until the given thread terminates
+     * @param thread */
     void join(CPUState thread);
-    /** 
+    /**
+     * @param state
      * @return true if thread was unblocked otherwise false
      */
     boolean unblock(CPUState state);
@@ -63,6 +66,6 @@ public interface CPUManager extends Portal {
     int getStackFrameBytecode(int depth);
 
     // scheduler
-    //void inhibitScheduling();
-    //void allowScheduling();
+    void inhibitScheduling();
+    void allowScheduling();
 }
