@@ -4,36 +4,43 @@ public interface Memory extends ReadOnlyMemory {
 
     /**
      * @param where a 8-bit offset into this memory
+     * @param what
      */
     public void set8(int where, byte what);
 
     /**
      * @param where is a 16-bit offset
+     * @param what
      */
     public void set16(int where, short what);
 
     /**
      * @param where is a 32-bit offset
+     * @param what
      */
     public void set32(int where, int what);
 
     /**
      * @param offset is a 8-bit offset (need not be aligned)
+     * @param value
      */
     public void setLittleEndian32(int offset, int value);
 
     /**
      * @param offset is a 8-bit offset (need not be aligned)
+     * @param value
      */
     public void setLittleEndian16(int offset, short value);
 
     /**
      * @param offset is a 8-bit offset (need not be aligned)
+     * @param value
      */
     public void setBigEndian32(int offset, int value);
 
     /**
      * @param offset is a 8-bit offset (need not be aligned)
+     * @param value
      */
     public void setBigEndian16(int offset, short value);
 
@@ -64,7 +71,8 @@ public interface Memory extends ReadOnlyMemory {
     /** Map part of this memory to an object.
      * The state of the memory is initialized with the contents
      * of this Memory object.
-     * @param classname name of the mapped object's class
+     * @param vmclass name of the mapped object's class
+     * @return 
      */
     public Object map(VMClass vmclass);
 
@@ -82,7 +90,7 @@ public interface Memory extends ReadOnlyMemory {
     /**
      * Revoke access to this memory.
      * All previously obtained references to this memory become invalid.
-     * @returns a new valid reference to the memory
+     * @return a new valid reference to the memory
      */
     public Memory revoke();
 
@@ -96,6 +104,3 @@ public interface Memory extends ReadOnlyMemory {
     public void clear();
     //public void fill8(byte what, int offset, int length);
 }
-
-
-
