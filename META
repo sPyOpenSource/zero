@@ -1,5 +1,5 @@
 NEEDLIBS = 
-SUBDIRS = jx/zero jx/zero/debug jx/zero/scheduler
+SUBDIRS = jx/zero
 LIBNAME = zero
 IFDEPENDSON = jdk_zero
 NUMBERENV = int
