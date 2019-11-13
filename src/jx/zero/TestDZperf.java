@@ -12,9 +12,10 @@ public interface TestDZperf extends Portal {
 
     /** prepares data-structures for the Method callSchedulerMethod_registered_.
      * @param  worker a Thread 
+     * @param HLS
      * HLS a HighlevelScheduler Object the Method registered of this Object is called by callSchedulerMethod_registered_
      * @return <code>true</code>, if Parameters are ok
-     * @return <code>false</code> otherwise
+     * return <code>false</code> otherwise
     */
   int prepareSchedulerMethod_registered_(CPUState worker, HighLevelScheduler HLS);
   int callSchedulerMethod_registered_();

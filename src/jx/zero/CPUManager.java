@@ -9,6 +9,7 @@ public interface CPUManager extends Portal {
     void notifyAll(Object var);
     void dump(String msg, Object obj);
     void switchTo(CPUState state);
+    
     CPUState getCPUState();
 
     /** block this thread */
@@ -16,6 +17,7 @@ public interface CPUManager extends Portal {
 
     /** avoid lost unblocks by blocking only if the thread was not unblocked when RUNNABLE */
     void blockIfNotUnblocked();
+    
     /** clear the flag that tells if the thread was unblocked when RUNNABLE */
     void clearUnblockFlag();
 

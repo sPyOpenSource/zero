@@ -7,7 +7,7 @@ public interface VMClass {
     boolean equals(VMClass vmcls);
 
     /**
-     * Return size as number of fields.
+     * @return size as number of fields.
      * Each field is 32 Bits.
      */
     int getInstanceSize();
