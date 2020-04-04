@@ -15,7 +15,7 @@ public class VMSupport {
     }
 
     public static int swapIntByteOrder(int value) {
-	int rvalue=0;
+	int rvalue = 0;
 	rvalue |= (value & 0x000000ff) <<  24;
 	rvalue |= (value & 0x0000ff00) <<  8;
 	rvalue |= (value & 0x00ff0000) >>> 8;
