@@ -21,4 +21,5 @@ public interface JAVASchedulerSupport extends Portal {
 
     /* print info*/
     void dumpThread (CPUState state);
+    
 }

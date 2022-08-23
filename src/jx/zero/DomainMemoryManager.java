@@ -4,7 +4,7 @@ public interface DomainMemoryManager extends Portal {
 
     /**
      * Allocate memory for the fields of an object.The first word in this memory is used for the
- vtable pointer.
+     * vtable pointer.
      * @param cl
      * @return 
      */

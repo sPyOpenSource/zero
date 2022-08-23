@@ -26,4 +26,5 @@ public interface SMPCPUManager extends Portal {
 
     /* Syncronisation */
     Mutex createMutex();
+    
 }

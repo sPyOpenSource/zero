@@ -17,4 +17,5 @@ public interface IRQ extends Portal {
      * @param irq
      * @param dest_cpu */
     public void set_destination(int irq, int dest_cpu);
+    
 }

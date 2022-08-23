@@ -1,7 +1,6 @@
 package jx.zero;
 
 public interface Memory extends ReadOnlyMemory {
-
     /**
      * @param where a 8-bit offset into this memory
      * @param what
