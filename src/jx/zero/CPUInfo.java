@@ -43,6 +43,7 @@ public class CPUInfo {
     public CPUInfo(String vendor) {
 	this.vendor = vendor;
     }
+    
     public CPUInfo(String vendor, int type, int family, int model, int stepping, int brand, int features) {
 	this.vendor = vendor;
 	this.type = type;
@@ -52,7 +53,7 @@ public class CPUInfo {
 	this.brand = brand;
 	this.features = features;
 	/*
-	  Debug.out.println("Vendor: "+vendor);
+	Debug.out.println("Vendor: "+vendor);
 	Debug.out.println("Type: "+type);
 	Debug.out.println("Family: "+family);
 	Debug.out.println("Model: "+model);

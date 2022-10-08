@@ -13,7 +13,7 @@ public class FBEmulationEvent {
     public static final int STATE_SHIFT         = 1<<3;
 
     public int eventType;
-    public int x,y;
+    public int x, y;
     public int keycode;
     public int button;
 
