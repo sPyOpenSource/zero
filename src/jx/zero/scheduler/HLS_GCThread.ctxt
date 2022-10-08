@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=HLS_GCThread
+comment0.text=\nthis\ interface\ defines\ a\ Notifying-Method\ of\ a\ HighLevel_Scheduler\ \n
+comment1.params=interruptedThread\ GCThread
+comment1.target=void\ startGCThread(jx.zero.CPUState,\ jx.zero.CPUState)
+comment1.text=yes
+comment2.params=GCThread
+comment2.target=void\ unblockedGCThread(jx.zero.CPUState)
+comment2.text=yes
+comment3.params=GCThread
+comment3.target=void\ destroyedGCThread(jx.zero.CPUState)
+comment3.text=yes
+numComments=4

@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=HLScheduler_runnables
+comment0.text=\n\ this\ interface\ accumulates\ all\ Methods\ with\ runnable\ Threads\ as\ arguments\n
+numComments=1

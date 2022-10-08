@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=HighLevelScheduler
+comment0.text=\nthis\ interface\ defines\ a\ Scheduler\ for\ the\ Threads\ of\ a\ Domain\nthe\ inlined\ Portal\ jx.zero.HLSchedulerSupport\ contains\ some\ methods\ useful\ for\ this\ Scheduler\n
+comment1.params=
+comment1.target=boolean\ Scheduler_preempted()
+comment1.text=yes
+comment2.params=
+comment2.target=boolean\ Scheduler_interrupted()
+comment2.text=yes
+comment3.params=newThread
+comment3.target=void\ created(jx.zero.CPUState)
+comment3.text=yes
+comment4.params=
+comment4.target=void\ activated()
+comment4.text=no\!
+comment5.params=
+comment5.target=void\ dump()
+comment5.text=yes
+comment6.params=
+comment6.target=void\ registered()
+comment6.text=yes
+numComments=7

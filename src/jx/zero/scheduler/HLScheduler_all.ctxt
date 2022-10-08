@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=HLScheduler_all
+comment0.text=\nthis\ interface\ defines\ a\ Scheduler\ for\ the\ Threads\ of\ a\ Domain\nthe\ inlined\ Portal\ jx.zero.HLSchedulerSupport\ contains\ some\ methods\ useful\ for\ this\ Scheduler\n
+numComments=1
