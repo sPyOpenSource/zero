@@ -15,14 +15,11 @@ public interface SMPCPUManager extends Portal {
     CPU getMyCPU();
     int getNumCPUs();
     CPU getCPU(int i); 
-    
-//    CPUState getCPUState(int cpu_id);
-    
+        
     int test(int val);  //ttt
     int test2(int val);  //ttt
     int test_setAPICTimer(int val);  //ttt
     void dump(CPU cpu); //ttt
-
 
     /* Syncronisation */
     Mutex createMutex();

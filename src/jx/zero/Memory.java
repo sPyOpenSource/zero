@@ -62,12 +62,6 @@ public interface Memory extends ReadOnlyMemory {
 
     public Memory joinAll();
 
-    /** extend the range of this memory object */
-    //public Memory extendRange(int atBeginning, int atEnd);
-
-    /** extend the memory to its full range */
-    //public Memory extendFullRange();
-
     /** Map part of this memory to an object.
      * The state of the memory is initialized with the contents
      * of this Memory object.
@@ -76,17 +70,6 @@ public interface Memory extends ReadOnlyMemory {
      */
     public Object map(VMClass vmclass);
 
-    //public void copyFromObject(MappedObject o, int start);
-
-    // Synchronize all memory mappings.
-    // Write the contents of all mapped objects into this Memory object.
-    //public void syncMappings();
-
-    // JX PROBLEM: Object methods cannot be called at interfaces if they are
-    // not part of the interface
-    //public boolean equals(Object o);
-    //public Object clone();
-
     /**
      * Revoke access to this memory.
      * All previously obtained references to this memory become invalid.
@@ -94,7 +77,6 @@ public interface Memory extends ReadOnlyMemory {
      */
     public Memory revoke();
 
-    // public int getOffset();
     public boolean isValid();
 
     public void copy(int from, int to, int length);
@@ -102,5 +84,4 @@ public interface Memory extends ReadOnlyMemory {
     public void fill16(short what, int offset, int length);
     public void fill32(int what, int offset, int length);
     public void clear();
-    //public void fill8(byte what, int offset, int length);
 }
