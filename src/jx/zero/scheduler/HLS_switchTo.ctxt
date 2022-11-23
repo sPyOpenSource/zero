@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=HLS_switchTo
+comment0.text=\nthis\ interface\ defines\ a\ Method\ of\ a\ HighLevel_Scheduler\ \n
+comment1.params=Thread
+comment1.target=void\ switchedTo(jx.zero.CPUState)
+comment1.text=yes
+numComments=2

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=HLS_yielded
+comment0.text=\nthis\ interface\ defines\ a\ Notifying-Method\ of\ a\ HighLevel_Scheduler\ \n
+comment1.params=newThread
+comment1.target=void\ yielded(jx.zero.CPUState)
+comment1.text=yes
+numComments=2

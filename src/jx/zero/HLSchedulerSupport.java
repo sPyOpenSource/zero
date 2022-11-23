@@ -30,4 +30,5 @@ public interface HLSchedulerSupport extends Portal {
     
      /* print info */
     void dumpThread (CPUState state);
+    
 }

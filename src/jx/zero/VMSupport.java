@@ -9,7 +9,6 @@ package jx.zero;
  */
 
 public class VMSupport {
-
     public static short swapShortByteOrder(short value) {
 	return (short)(((value&0xff00)>>>8)|((value&0x00ff)<<8));
     }

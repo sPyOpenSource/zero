@@ -1,6 +1,6 @@
 package jx.zero;
 
-import jx.zero.debug.*;
+import jx.zero.debug.MonitorCommand;
 
 public interface DebugSupport extends Portal {
     void dumpDomain(Domain domain);

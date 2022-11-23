@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=DebugChannel
+comment1.params=b
+comment1.target=void\ write(int)
+comment2.params=
+comment2.target=int\ read()
+comment3.params=b\ off\ len
+comment3.target=void\ writeBuf(byte[],\ int,\ int)
+numComments=4
