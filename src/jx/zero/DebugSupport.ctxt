@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=DebugSupport
+comment1.params=domain
+comment1.target=void\ dumpDomain(Domain)
+comment2.params=o
+comment2.target=void\ dumpObject(java.lang.Object)
+comment3.params=name\ data\ size
+comment3.target=void\ sendBinary(java.lang.String,\ Memory,\ int)
+comment4.params=name\ cmd
+comment4.target=void\ registerMonitorCommand(java.lang.String,\ debug.MonitorCommand)
+comment5.params=
+comment5.target=void\ breakpoint()
+numComments=6

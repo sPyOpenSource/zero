@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=JAVAScheduler
+comment1.params=newThread
+comment1.target=void\ add(CPUState)
+comment2.params=
+comment2.target=CPUState\ removeNext()
+comment3.params=
+comment3.target=void\ dump()
+comment4.params=irq_nr
+comment4.target=void\ init(int)
+comment4.text=\ called\ from\ SMPcpuManager\:\:register_Scheduler\nand\ is\ executed\ on\ its\ final\ CPU
+numComments=5

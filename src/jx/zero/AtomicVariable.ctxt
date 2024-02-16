@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=AtomicVariable
+comment1.params=
+comment1.target=java.lang.Object\ get()
+comment2.params=value
+comment2.target=void\ set(java.lang.Object)
+comment3.params=value\ state
+comment3.target=void\ atomicUpdateUnblock(java.lang.Object,\ CPUState)
+comment4.params=testValue
+comment4.target=void\ blockIfEqual(java.lang.Object)
+comment5.params=testValue
+comment5.target=void\ blockIfNotEqual(java.lang.Object)
+comment6.params=
+comment6.target=void\ activateListMode()
+comment6.text=activates\ the\ ListMode\:\ several\ Threads\ can\ block,\ all\ of\ them\ are\ awaken\ if\ the\ value\ is\ changed.
+numComments=7

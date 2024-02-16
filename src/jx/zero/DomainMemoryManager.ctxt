@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=DomainMemoryManager
+comment1.params=cl
+comment1.target=int\ allocObject(VMClass)
+comment1.text=\n\ Allocate\ memory\ for\ the\ fields\ of\ an\ object.The\ first\ word\ in\ this\ memory\ is\ used\ for\ the\n\ vtable\ pointer.\n\ @param\ cl\n\ @return\ \n
+comment2.params=elementClass\ size
+comment2.target=int\ allocArray(VMClass,\ int)
+comment2.text=\n\ Allocate\ memory\ for\ an\ array.The\ size\ of\ one\ array\ element\ is\ one\ word\ (32\ Bits)\n\ @param\ elementClass\n\ @param\ size\n\ @return\ \n
+comment3.params=sizeInBytes
+comment3.target=int\ allocTCB(int)
+comment3.text=\n\ Allocate\ memory\ for\ the\ thread\ control\ block.\n\ @param\ sizeInBytes\n\ @return\ \n
+comment4.params=sizeInBytes
+comment4.target=int\ allocStack(int)
+comment4.text=\n\ Allocate\ memory\ for\ a\ stack.\n\ @param\ sizeInBytes\n\ @return\ \n
+comment5.params=numberOfFields
+comment5.target=int\ allocStaticFields(int)
+comment5.text=\n\ Allocate\ memory\ for\ the\ static\ fields\ of\ a\ class.The\ size\ of\ a\ field\ is\ 32\ Bits.\n\ @param\ numberOfFields\n\ @return\ \n
+comment6.params=numberOfCodeBytes
+comment6.target=int\ allocCode(int)
+comment6.text=\n\ Allocate\ memory\ for\ the\ code\ of\ a\ method.\n\ @param\ numberOfCodeBytes\n\ @return\ \n
+comment7.params=
+comment7.target=void\ threadExiting()
+comment7.text=\n\ Informs\ the\ memory\ manager\ that\ the\ current\ thread\n\ is\ about\ to\ die.\n
+numComments=8

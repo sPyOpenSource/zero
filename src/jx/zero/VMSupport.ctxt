@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=VMSupport
+comment0.text=\n\ The\ methods\ in\ this\ class\ a\ known\ by\ the\ Bytecode-Translater\ and\ \n\ some\ are\ overwritten\ by\ compiler\ plugins.\n\n\ see\ jx.compiler.plugins.VMSupport\n\n
+comment1.params=value
+comment1.target=short\ swapShortByteOrder(short)
+comment2.params=value
+comment2.target=int\ swapIntByteOrder(int)
+comment3.params=src\ srcOffset\ dst\ dstOffset\ count
+comment3.target=void\ arraycopy_byte_left(byte[],\ int,\ byte[],\ int,\ int)
+comment3.text=byte[]
+comment4.params=src\ srcOffset\ dst\ dstOffset\ count
+comment4.target=void\ arraycopy_byte_right(byte[],\ int,\ byte[],\ int,\ int)
+comment5.params=src\ srcOffset\ dst\ dstOffset\ count
+comment5.target=void\ arraycopy_char_left(char[],\ int,\ char[],\ int,\ int)
+comment5.text=char[]
+comment6.params=src\ srcOffset\ dst\ dstOffset\ count
+comment6.target=void\ arraycopy_char_right(char[],\ int,\ char[],\ int,\ int)
+comment7.params=src\ srcOffset\ dst\ dstOffset\ count
+comment7.target=void\ arraycopy_left(java.lang.Object[],\ int,\ java.lang.Object[],\ int,\ int)
+comment7.text=else
+comment8.params=src\ srcOffset\ dst\ dstOffset\ count
+comment8.target=void\ arraycopy_right(java.lang.Object[],\ int,\ java.lang.Object[],\ int,\ int)
+numComments=9

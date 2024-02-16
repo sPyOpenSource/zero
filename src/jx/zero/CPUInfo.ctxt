@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CPUInfo
+comment1.params=vendor
+comment1.target=CPUInfo(java.lang.String)
+comment2.params=vendor\ type\ family\ model\ stepping\ brand\ features
+comment2.target=CPUInfo(java.lang.String,\ int,\ int,\ int,\ int,\ int,\ int)
+comment3.params=
+comment3.target=boolean\ hasMTRR()
+numComments=4

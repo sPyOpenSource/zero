@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TimerEmulation
+comment1.params=
+comment1.target=int\ getTime()
+comment2.params=atomic\ state\ sec\ usec
+comment2.target=void\ installIntervallTimer(AtomicVariable,\ CPUState,\ int,\ int)
+numComments=3

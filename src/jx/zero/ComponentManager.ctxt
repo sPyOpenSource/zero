@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ComponentManager
+comment1.params=name\ libcode
+comment1.target=void\ registerLib(java.lang.String,\ Memory)
+comment2.params=name
+comment2.target=int\ load(java.lang.String)
+comment2.text=\n\ @param\ name\ \n@return\ componentID
+comment3.params=classname
+comment3.target=void\ setInheritThread(java.lang.String)
+comment3.text=\ if\ this\ class\ is\ used\ as\ a\ service\ object\ its\ service\ thread\ is\ inherited\n\ to\ all\ services\ it\ creates\n@param\ classname
+numComments=4

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=VMObject
+comment0.text=\ reference\ to\ an\ object\ of\ another\ domain\n\ the\ other\ domain\ must\ be\ frozen\n\ if\ it\ is\ melted\ this\ object\ gets\ invalid\n
+comment1.params=
+comment1.target=VMClass\ getVMClass()
+comment2.params=
+comment2.target=int\ getPrimitiveData()
+comment3.params=
+comment3.target=java.lang.String\ getString()
+comment4.params=result
+comment4.target=boolean\ getFirstSubObject(VMObject)
+comment5.params=result
+comment5.target=boolean\ getNextSubObject(VMObject)
+numComments=6

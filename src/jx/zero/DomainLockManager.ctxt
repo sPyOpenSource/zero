@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=DomainLockManager
+comment1.params=addr
+comment1.target=void\ monitorenter(int)
+comment2.params=addr
+comment2.target=void\ monitorexit(int)
+numComments=3

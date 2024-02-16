@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=VMMethod
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment2.params=
+comment2.target=java.lang.String\ getSignature()
+comment3.params=obj\ args
+comment3.target=java.lang.Object\ invoke(java.lang.Object,\ java.lang.Object[])
+numComments=4

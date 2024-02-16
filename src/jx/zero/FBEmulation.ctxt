@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=FBEmulation
+comment1.params=
+comment1.target=DeviceMemory\ getVideoMemory()
+comment2.params=
+comment2.target=int\ getWidth()
+comment3.params=
+comment3.target=int\ getHeight()
+comment4.params=
+comment4.target=int\ getBytesPerLine()
+comment5.params=
+comment5.target=int\ getBitsPerPixel()
+comment6.params=
+comment6.target=void\ update()
+comment6.text=update\ must\ be\ called\ for\ video\ memory\ changes\ to\ become\ effective
+comment7.params=
+comment7.target=boolean\ inputDevicesAvailable()
+comment7.text=@return\ true\ if\ emulated\ input\ devices\ are\ available
+comment8.params=event
+comment8.target=boolean\ checkEvent(FBEmulationEvent)
+comment8.text=\n\ @param\ event\ \n@return\ true\ if\ event\ happend;\ event\ object\ is\ filled\ with\ data
+comment9.params=mode
+comment9.target=boolean\ open(int)
+numComments=10

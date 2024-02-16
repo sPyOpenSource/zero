@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=VMClass
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment2.params=
+comment2.target=boolean\ isPrimitive()
+comment3.params=vmcls
+comment3.target=boolean\ equals(VMClass)
+comment4.params=
+comment4.target=int\ getInstanceSize()
+comment4.text=\n\ @return\ size\ as\ number\ of\ fields.\n\ Each\ field\ is\ 32\ Bits.\n
+comment5.params=
+comment5.target=java.lang.Object\ newInstance()
+comment6.params=
+comment6.target=VMMethod[]\ getMethods()
+numComments=7

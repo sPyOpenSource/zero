@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CAS
+comment1.params=obj\ compareValue\ setValue
+comment1.target=boolean\ casObject(java.lang.Object,\ java.lang.Object,\ java.lang.Object)
+comment2.params=obj\ compareValue\ setValue
+comment2.target=boolean\ casInt(java.lang.Object,\ int,\ int)
+comment3.params=obj\ compareValue\ setValue
+comment3.target=boolean\ casBoolean(java.lang.Object,\ boolean,\ boolean)
+comment4.params=obj\ compareValue\ setValue
+comment4.target=boolean\ casShort(java.lang.Object,\ short,\ short)
+comment5.params=obj\ compareValue\ setValue
+comment5.target=boolean\ casByte(java.lang.Object,\ byte,\ byte)
+numComments=6

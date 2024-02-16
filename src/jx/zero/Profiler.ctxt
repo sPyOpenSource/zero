@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Profiler
+comment1.params=
+comment1.target=void\ restart()
+comment2.params=
+comment2.target=void\ shell()
+comment3.params=
+comment3.target=void\ startCalibration()
+comment4.params=time1\ time2\ time3
+comment4.target=boolean\ endCalibration(int,\ int,\ int)
+comment4.text=\n\ @param\ time1\:\ The\ spent\ cycles\ by\ a\ empty\ Method\n\ @param\ time2\:\ The\ spent\ cycles\ of\ a\ method\ without\ inner\ profiling\n\ @param\ time3\:\ The\ spent\ cycles\ of\ the\ same\ method\ with\ inner\ profiling\n\n\ @return\ false\ on\ failure.\n\n
+comment5.params=methodName
+comment5.target=int\ getAverageCyclesOfMethod(java.lang.String)
+comment6.params=
+comment6.target=void\ startSampling()
+comment7.params=
+comment7.target=void\ stopSampling()
+comment8.params=
+comment8.target=boolean\ isSampling()
+numComments=9

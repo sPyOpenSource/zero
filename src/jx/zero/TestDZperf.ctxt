@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=TestDZperf
+comment1.params=
+comment1.target=void\ emptyMethod()
+comment1.text=\ this\ is\ an\ empty\ Method.\ \n\ \ it\ returns\ immediatly\n
+comment2.params=worker\ HLS
+comment2.target=int\ prepareSchedulerMethod_registered_(CPUState,\ scheduler.HighLevelScheduler)
+comment2.text=\ prepares\ data-structures\ for\ the\ Method\ callSchedulerMethod_registered_.\n\ @param\ \ worker\ a\ Thread\ \n\ @param\ HLS\n\ HLS\ a\ HighlevelScheduler\ Object\ the\ Method\ registered\ of\ this\ Object\ is\ called\ by\ callSchedulerMethod_registered_\n\ @return\ <code>true</code>,\ if\ Parameters\ are\ ok\n\ return\ <code>false</code>\ otherwise\n
+comment3.params=
+comment3.target=int\ callSchedulerMethod_registered_()
+numComments=4

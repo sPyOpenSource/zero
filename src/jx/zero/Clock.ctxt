@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Clock
+comment1.params=
+comment1.target=long\ getTicks()
+comment2.params=
+comment2.target=int\ getTimeInMillis()
+comment3.params=
+comment3.target=int\ getTicks_low()
+comment4.params=
+comment4.target=int\ getTicks_high()
+comment5.params=c
+comment5.target=int\ toMicroSec(CycleTime)
+comment6.params=c
+comment6.target=int\ toNanoSec(CycleTime)
+comment7.params=c
+comment7.target=int\ toMilliSec(CycleTime)
+comment8.params=c
+comment8.target=void\ getCycles(CycleTime)
+comment9.params=result\ a\ b
+comment9.target=void\ subtract(CycleTime,\ CycleTime,\ CycleTime)
+numComments=10

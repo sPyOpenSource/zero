@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=JAVASchedulerSupport
+comment1.params=
+comment1.target=CPUState\ getCurThr()
+comment2.params=state
+comment2.target=void\ switchTo(CPUState)
+comment3.params=
+comment3.target=CPUState\ getIdleThread()
+comment3.text=returns\ the\ idle\ Thread\ of\ the\ current\ cpu
+comment4.params=time
+comment4.target=void\ setTimeslice(int)
+comment4.text=sets\ the\ time\ (in\ 10msec)\ of\ the\ timeslice\ (for\ the\ current\ CPU)
+comment5.params=state\ data
+comment5.target=void\ storeThreadInfo(CPUState,\ java.lang.Object)
+comment5.text=store/get\ Info-Object\ associated\ with\ a\ Thread
+comment6.params=state
+comment6.target=java.lang.Object\ getThreadInfo(CPUState)
+comment7.params=state
+comment7.target=Domain\ getThreadDomain(CPUState)
+comment7.text=returns\ the\ Domain\ of\ a\ given\ Thread
+comment8.params=state
+comment8.target=void\ dumpThread(CPUState)
+comment8.text=print\ info
+numComments=9

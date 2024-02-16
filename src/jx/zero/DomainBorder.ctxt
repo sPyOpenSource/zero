@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=DomainBorder
+comment1.params=info
+comment1.target=boolean\ createPortal(PortalInfo)
+comment2.params=info
+comment2.target=void\ destroyPortal(PortalInfo)
+numComments=3

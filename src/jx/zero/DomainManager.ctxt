@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=DomainManager
+comment1.params=name\ cpus\ HLSchedClass\ domainCode\ libs\ startClass\ gcinfo0\ gcinfo1\ gcinfo2\ gcinfo3\ gcinfo4\ codeSize\ argv\ naming\ moreArgs\ garbageCollector\ schedinfo
+comment1.target=Domain\ createDomain(java.lang.String,\ CPU[],\ java.lang.String[],\ java.lang.String,\ java.lang.String[],\ java.lang.String,\ int,\ int,\ int,\ java.lang.String,\ int,\ int,\ java.lang.String[],\ Naming,\ java.lang.Object[],\ int,\ int[])
+comment2.params=
+comment2.target=Domain\ getDomainZero()
+comment3.params=
+comment3.target=Domain\ getCurrentDomain()
+comment4.params=domain\ border\ thread
+comment4.target=void\ installInterceptor(Domain,\ DomainBorder,\ CPUState)
+comment5.params=domain
+comment5.target=void\ gc(Domain)
+comment6.params=domain
+comment6.target=void\ freeze(Domain)
+comment7.params=domain
+comment7.target=void\ thaw(Domain)
+comment8.params=domain
+comment8.target=void\ terminate(Domain)
+comment9.params=
+comment9.target=void\ terminateCaller()
+numComments=10

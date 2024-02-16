@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=DomainBorderIn
+comment1.params=info
+comment1.target=boolean\ inBound(InterceptInboundInfo)
+comment1.text=\n\ @param\ info\ \n@return\ true\=allow\ call;\ false\=block\ call
+numComments=2

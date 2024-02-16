@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CentralSecurityManager
+comment1.params=d\ p
+comment1.target=void\ addDomainAndPrincipal(Domain,\ Principal)
+comment2.params=d
+comment2.target=Principal\ getPrincipal(Domain)
+comment3.params=domain\ interceptorClass
+comment3.target=void\ installInterceptor(Domain,\ java.lang.String)
+comment4.params=source\ destination
+comment4.target=void\ inheritPrincipal(Domain,\ Domain)
+comment5.params=source\ destination
+comment5.target=void\ inheritInterceptor(Domain,\ Domain)
+numComments=6

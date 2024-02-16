@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=BootFS
+comment1.params=filename
+comment1.target=boolean\ lookup(java.lang.String)
+comment2.params=filename
+comment2.target=ReadOnlyMemory\ getFile(java.lang.String)
+comment3.params=filename
+comment3.target=Memory\ getReadWriteFile(java.lang.String)
+numComments=4

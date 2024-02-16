@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=CycleTime
+comment1.params=t
+comment1.target=CycleTime\ subtract(CycleTime)
+numComments=2

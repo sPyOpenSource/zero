@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CPU
+comment1.params=oldState\ newState
+comment1.target=void\ load(CPUState,\ CPUState)
+comment1.text=\n\ Save\ current\ state\ into\ oldState\ object\n\ and\ load\ state\ from\ newState\ object\n\ @param\ oldState\n\ @param\ newState\n
+comment2.params=state
+comment2.target=void\ save(CPUState)
+comment2.text=\n\ Save\ current\ state\ into\ state\ object\ \n\ @param\ state\n
+comment3.params=state
+comment3.target=void\ dump(CPUState)
+comment4.params=
+comment4.target=int\ getID()
+comment4.text=\ Returns\ the\ ID\ of\ the\ current\ CPU-Objec\n@return\ t
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

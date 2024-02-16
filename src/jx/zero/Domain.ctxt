@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Domain
+comment1.params=
+comment1.target=int\ getID()
+comment2.params=
+comment2.target=void\ clearTCBflag()
+comment3.params=
+comment3.target=boolean\ isActive()
+comment4.params=
+comment4.target=boolean\ isTerminated()
+comment5.params=
+comment5.target=java.lang.String\ getName()
+numComments=6
