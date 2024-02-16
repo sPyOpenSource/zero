@@ -1,3 +1,4 @@
+
 package jx.zero.scheduler;
 
 import jx.zero.CPUState;
@@ -14,4 +15,5 @@ public interface HLS_interrupted{
 		 store the thread for later execution <BR>
 	         <B>! IRQ are disabled during execution of this method</B><BR> */
 /* yes */    public void interrupted(CPUState newThread);
+
 }

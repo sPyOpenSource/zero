@@ -1,3 +1,4 @@
+
 package jx.zero.scheduler;
 
 import jx.zero.CPUState;
@@ -31,5 +32,5 @@ public interface HLS_GCThread{
 	      * <BR>
               * <B>! IRQ are disabled during execution of this method</B> <BR>*/
 /* yes */    public void destroyedGCThread (CPUState GCThread);
-}
 
+}

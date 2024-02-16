@@ -1,3 +1,4 @@
+
 package jx.zero.scheduler;
 
 import jx.zero.CPUState;
@@ -14,4 +15,5 @@ public interface HLS_destroyed{
 		 the scheduler can destroy all information stored about this thread<BR>
 	         <B>! IRQ are disabled during execution of this method</B> <BR>*/
 /* yes */    public void destroyed  (CPUState Thread);
+
 }

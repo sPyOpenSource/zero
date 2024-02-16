@@ -1,3 +1,4 @@
+
 package jx.zero.scheduler;
 
 import jx.zero.CPUState;
@@ -18,4 +19,5 @@ public interface HLS_blockedInService{
 		 So the Domain can donate it's CPU time to the Portal Domain<BR>
 	         <B>! IRQ are disabled during execution of this method</B> <BR>*/
 /* yes */    public void blockedInService (CPUState Thread, CPUStateLink PortalThread);
+
 }
