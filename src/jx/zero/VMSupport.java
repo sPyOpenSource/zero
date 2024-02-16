@@ -10,7 +10,7 @@ package jx.zero;
 
 public class VMSupport {
     public static short swapShortByteOrder(short value) {
-	return (short)(((value&0xff00)>>>8)|((value&0x00ff)<<8));
+	return (short)(((value & 0xff00) >>> 8) | ((value & 0x00ff) << 8));
     }
 
     public static int swapIntByteOrder(int value) {
@@ -26,27 +26,27 @@ public class VMSupport {
     public static void arraycopy_byte_left(byte[] src, int srcOffset, byte[] dst, int dstOffset, int count) {
 	srcOffset += count;
 	dstOffset += count;
-	for(int i=0; i<count; ++i) dst[--dstOffset] = src[--srcOffset];
+	for(int i = 0; i < count; ++i) dst[--dstOffset] = src[--srcOffset];
     }
     public static void arraycopy_byte_right(byte[] src, int srcOffset, byte[] dst, int dstOffset, int count) {	
-	for(int i=0; i<count; i++) dst[dstOffset+i] = src[srcOffset+i];
+	for(int i = 0; i < count; i++) dst[dstOffset + i] = src[srcOffset + i];
     }
     /* char[] */
     public static void arraycopy_char_left(char[] src, int srcOffset, char[] dst, int dstOffset, int count) {
 	srcOffset += count;
 	dstOffset += count;
-	for(int i=0; i<count; ++i) dst[--dstOffset] = src[--srcOffset];
+	for(int i = 0; i < count; ++i) dst[--dstOffset] = src[--srcOffset];
     }
     public static void arraycopy_char_right(char[] src, int srcOffset, char[] dst, int dstOffset, int count) {
-	for(int i=0; i<count; i++) dst[dstOffset+i] = src[srcOffset+i];
+	for(int i = 0; i < count; i++) dst[dstOffset + i] = src[srcOffset + i];
     }
     /* else */
     public static void arraycopy_left(Object[] src, int srcOffset, Object[] dst, int dstOffset, int count) {
 	srcOffset += count;
 	dstOffset += count;
-	for(int i=0; i<count; ++i) dst[--dstOffset] = src[--srcOffset];
+	for(int i = 0; i < count; ++i) dst[--dstOffset] = src[--srcOffset];
     }
     public static void arraycopy_right(Object[] src, int srcOffset, Object[] dst, int dstOffset, int count) {
-	for(int i=0; i<count; i++) dst[dstOffset+i] = src[srcOffset+i];
+	for(int i = 0; i < count; i++) dst[dstOffset + i] = src[srcOffset + i];
     }
 }

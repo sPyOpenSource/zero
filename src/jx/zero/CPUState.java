@@ -1,10 +1,11 @@
+
 package jx.zero;
 
 public interface CPUState extends Portal {
 
   /** Returns the state of the Thread. (e.g. runnable) 
    *
-   * @return    the state of this CPUState (Thread)<BR> possible return values are: <code> STATE_INIT, STATE_RUNNABLE, STATE_ZOMBIE, STATE_SLEEPING, STATE_WAITING, STATE_WAITPORTAL0, STATE_WAITPORTAL1</code> and <code> STATE_BLOCKEDUSER</code>.
+   * @return the state of this CPUState (Thread)<BR> possible return values are: <code> STATE_INIT, STATE_RUNNABLE, STATE_ZOMBIE, STATE_SLEEPING, STATE_WAITING, STATE_WAITPORTAL0, STATE_WAITPORTAL1</code> and <code> STATE_BLOCKEDUSER</code>.
    */
   public int getState ();
   static final int STATE_INIT        = 1;
@@ -34,4 +35,5 @@ public interface CPUState extends Portal {
    * @return    the previous value of the next reference
    */
   public CPUState setNext(CPUState next);
+  
 }

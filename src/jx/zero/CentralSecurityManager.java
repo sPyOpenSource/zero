@@ -1,3 +1,4 @@
+
 package jx.zero;
 
 public interface CentralSecurityManager extends Portal {
