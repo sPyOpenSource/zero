@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=CPUState
+comment1.params=
+comment1.target=int\ getState()
+comment1.text=\ Returns\ the\ state\ of\ the\ Thread.\ (e.g.\ runnable)\ \n\n\ @return\ the\ state\ of\ this\ CPUState\ (Thread)<BR>\ possible\ return\ values\ are\:\ <code>\ STATE_INIT,\ STATE_RUNNABLE,\ STATE_ZOMBIE,\ STATE_SLEEPING,\ STATE_WAITING,\ STATE_WAITPORTAL0,\ STATE_WAITPORTAL1</code>\ and\ <code>\ STATE_BLOCKEDUSER</code>.\n
+comment2.params=
+comment2.target=boolean\ isPortalThread()
+comment2.text=\n\ Determines\ wether\ this\ Thread\ is\ servicing\ a\ Portal\ or\ not.\n\ @return\ \ \ \ <code>true</code>\ if\ this\ Thread\ is\ servicing\ a\ Portal.<BR>\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <code>false</code>\ if\ this\ Thread\ is\ not\ a\ "portalthread".\n
+comment3.params=
+comment3.target=CPUState\ getNext()
+comment3.text=\n\ returns\ next-"Pointer"\ used\ to\ generate\ a\ linked\ List\ of\ CPUStates\n\ @return\ \ \ \ next\ CPUState\ od\ <code>null</code>\n
+comment4.params=next
+comment4.target=CPUState\ setNext(CPUState)
+comment4.text=\n\ sets\ next-"Pointer"\ used\ to\ generate\ a\ linked\ List\ of\ CPUStates\n\ @param\ next\n\ @return\ \ \ \ the\ previous\ value\ of\ the\ next\ reference\n
+numComments=5
