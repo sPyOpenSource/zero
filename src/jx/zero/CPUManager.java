@@ -68,6 +68,6 @@ public interface CPUManager extends Portal {
     int getStackFrameBytecode(int depth);
 
     // scheduler
-    void inhibitScheduling();
+    //void inhibitScheduling();
     //void allowScheduling();
 }
