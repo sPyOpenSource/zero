@@ -70,5 +70,5 @@ public interface CPUManager extends Portal {
 
     // scheduler
     void inhibitScheduling();
-    void allowScheduling();
+    //void allowScheduling();
 }
