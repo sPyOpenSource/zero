@@ -35,7 +35,6 @@ public interface CPUManager extends Portal {
      */
     boolean unblock(CPUState state);
     CPUState createCPUState(ThreadEntry entry);
-    //CPUState createAvailableCPUState();
     boolean start(CPUState state);
     void printStackTrace();
     AtomicVariable getAtomicVariable();
