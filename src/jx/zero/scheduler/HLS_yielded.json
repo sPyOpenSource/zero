@@ -1,0 +1,27 @@
+[
+    {
+        "package": " jx.zero.scheduler",
+        "language": "java"
+    },
+    {"type": "import jx.zero.CPUState"},
+    {"comment": "642"},
+    {
+        "children": [
+            {"comment": "643"},
+            {"comment": "644"},
+            {"comment": "645"},
+            {"comment": "646"},
+            {
+                "name": "yielded",
+                "arguments": [{
+                    "name": "newThread",
+                    "type": "CPUState"
+                }],
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " HLS_yielded",
+        "type": " interface"
+    }
+]

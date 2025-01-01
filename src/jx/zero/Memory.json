@@ -1,0 +1,317 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " ReadOnlyMemory ",
+        "children": [
+            {"comment": "542"},
+            {
+                "name": "set8",
+                "arguments": [
+                    {
+                        "name": "where",
+                        "type": "int"
+                    },
+                    {
+                        "name": "what",
+                        "type": "byte"
+                    }
+                ],
+                "type": "void"
+            },
+            {"comment": "543"},
+            {
+                "name": "set16",
+                "arguments": [
+                    {
+                        "name": "where",
+                        "type": "int"
+                    },
+                    {
+                        "name": "what",
+                        "type": "short"
+                    }
+                ],
+                "type": "void"
+            },
+            {"comment": "544"},
+            {
+                "name": "set32",
+                "arguments": [
+                    {
+                        "name": "where",
+                        "type": "int"
+                    },
+                    {
+                        "name": "what",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {"comment": "545"},
+            {
+                "name": "setLittleEndian32",
+                "arguments": [
+                    {
+                        "name": "offset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "value",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {"comment": "546"},
+            {
+                "name": "setLittleEndian16",
+                "arguments": [
+                    {
+                        "name": "offset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "value",
+                        "type": "short"
+                    }
+                ],
+                "type": "void"
+            },
+            {"comment": "547"},
+            {
+                "name": "setBigEndian32",
+                "arguments": [
+                    {
+                        "name": "offset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "value",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {"comment": "548"},
+            {
+                "name": "setBigEndian16",
+                "arguments": [
+                    {
+                        "name": "offset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "value",
+                        "type": "short"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "copyFromByteArray",
+                "arguments": [
+                    {
+                        "name": "array",
+                        "type": "byte[]"
+                    },
+                    {
+                        "name": "array_offset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "mem_offset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "len",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "copyFromMemory",
+                "arguments": [
+                    {
+                        "name": "src",
+                        "type": "Memory"
+                    },
+                    {
+                        "name": "srcOffset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dstOffset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "len",
+                        "type": "int"
+                    }
+                ],
+                "type": "int"
+            },
+            {"comment": "549"},
+            {
+                "name": "split2",
+                "arguments": [
+                    {
+                        "name": "offset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "parts",
+                        "type": "Memory[]"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "split3",
+                "arguments": [
+                    {
+                        "name": "offset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "size",
+                        "type": "int"
+                    },
+                    {
+                        "name": "parts",
+                        "type": "Memory[]"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "getSubRange",
+                "arguments": [
+                    {
+                        "name": "start",
+                        "type": "int"
+                    },
+                    {
+                        "name": "size",
+                        "type": "int"
+                    }
+                ],
+                "type": "Memory"
+            },
+            {"comment": "550"},
+            {
+                "name": "joinPrevious",
+                "type": "Memory"
+            },
+            {
+                "name": "joinNext",
+                "type": "Memory"
+            },
+            {
+                "name": "joinAll",
+                "type": "Memory"
+            },
+            {"comment": "551"},
+            {
+                "name": "map",
+                "arguments": [{
+                    "name": "vmclass",
+                    "type": "VMClass"
+                }],
+                "type": "Object"
+            },
+            {"comment": "552"},
+            {
+                "name": "revoke",
+                "type": "Memory"
+            },
+            {
+                "name": "isValid",
+                "type": "boolean"
+            },
+            {
+                "name": "copy",
+                "arguments": [
+                    {
+                        "name": "from",
+                        "type": "int"
+                    },
+                    {
+                        "name": "to",
+                        "type": "int"
+                    },
+                    {
+                        "name": "length",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "move",
+                "arguments": [
+                    {
+                        "name": "dst",
+                        "type": "int"
+                    },
+                    {
+                        "name": "src",
+                        "type": "int"
+                    },
+                    {
+                        "name": "count",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "fill16",
+                "arguments": [
+                    {
+                        "name": "what",
+                        "type": "short"
+                    },
+                    {
+                        "name": "offset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "length",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "fill32",
+                "arguments": [
+                    {
+                        "name": "what",
+                        "type": "int"
+                    },
+                    {
+                        "name": "offset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "length",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "clear",
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " Memory ",
+        "type": " interface"
+    }
+]

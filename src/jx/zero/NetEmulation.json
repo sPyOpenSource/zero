@@ -1,0 +1,67 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "open",
+                "arguments": [
+                    {
+                        "name": "deviceName",
+                        "type": "String"
+                    },
+                    {
+                        "name": "macaddr",
+                        "type": "byte[]"
+                    }
+                ],
+                "type": "int"
+            },
+            {"comment": "557"},
+            {
+                "name": "receive",
+                "arguments": [{
+                    "name": "buffer",
+                    "type": "Memory"
+                }],
+                "type": "int"
+            },
+            {
+                "name": "send",
+                "arguments": [
+                    {
+                        "name": "buffer",
+                        "type": "Memory"
+                    },
+                    {
+                        "name": "offset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "size",
+                        "type": "int"
+                    }
+                ],
+                "type": "int"
+            },
+            {
+                "name": "getMTU",
+                "type": "int"
+            },
+            {
+                "name": "getMACAddress",
+                "type": "byte[]"
+            },
+            {
+                "name": "close",
+                "type": "int"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " NetEmulation ",
+        "type": " interface"
+    }
+]

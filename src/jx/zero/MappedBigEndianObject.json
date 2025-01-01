@@ -1,0 +1,12 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " MappedObject ",
+        "modifier": ["public"],
+        "name": " MappedBigEndianObject ",
+        "type": " interface"
+    }
+]

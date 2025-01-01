@@ -1,0 +1,70 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "children": [
+            {
+                "name": "TYPE_KEY_PRESS",
+                "type": "int"
+            },
+            {
+                "name": "TYPE_KEY_RELEASE",
+                "type": "int"
+            },
+            {
+                "name": "TYPE_BUTTON_PRESS",
+                "type": "int"
+            },
+            {
+                "name": "TYPE_BUTTON_RELEASE",
+                "type": "int"
+            },
+            {
+                "name": "TYPE_MOUSE_MOVE",
+                "type": "int"
+            },
+            {
+                "name": "STATE_BUTTON1",
+                "type": "int"
+            },
+            {
+                "name": "STATE_BUTTON2",
+                "type": "int"
+            },
+            {
+                "name": "STATE_BUTTON3",
+                "type": "int"
+            },
+            {
+                "name": "STATE_SHIFT",
+                "type": "int"
+            },
+            {
+                "name": "eventType",
+                "type": "int"
+            },
+            {
+                "name": "x",
+                "type": "int"
+            },
+            {
+                "name": "keycode",
+                "type": "int"
+            },
+            {
+                "name": "button",
+                "type": "int"
+            },
+            {
+                "name": "state",
+                "type": "int"
+            },
+            {"comment": "497"}
+        ],
+        "modifier": ["public"],
+        "name": "FBEmulationEvent ",
+        "type": " class"
+    }
+]

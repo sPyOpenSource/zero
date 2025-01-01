@@ -1,0 +1,30 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "monitorenter",
+                "arguments": [{
+                    "name": "addr",
+                    "type": "int"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "monitorexit",
+                "arguments": [{
+                    "name": "addr",
+                    "type": "int"
+                }],
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " DomainLockManager ",
+        "type": " interface"
+    }
+]

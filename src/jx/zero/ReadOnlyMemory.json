@@ -1,0 +1,142 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {"comment": "560"},
+            {
+                "name": "get8",
+                "arguments": [{
+                    "name": "where",
+                    "type": "int"
+                }],
+                "type": "byte"
+            },
+            {"comment": "561"},
+            {
+                "name": "get16",
+                "arguments": [{
+                    "name": "where",
+                    "type": "int"
+                }],
+                "type": "short"
+            },
+            {"comment": "562"},
+            {
+                "name": "get32",
+                "arguments": [{
+                    "name": "where",
+                    "type": "int"
+                }],
+                "type": "int"
+            },
+            {"comment": "563"},
+            {
+                "name": "getLittleEndian32",
+                "arguments": [{
+                    "name": "offset",
+                    "type": "int"
+                }],
+                "type": "int"
+            },
+            {"comment": "564"},
+            {
+                "name": "getLittleEndian16",
+                "arguments": [{
+                    "name": "offset",
+                    "type": "int"
+                }],
+                "type": "short"
+            },
+            {
+                "name": "getBigEndian32",
+                "arguments": [{
+                    "name": "where",
+                    "type": "int"
+                }],
+                "type": "int"
+            },
+            {
+                "name": "getBigEndian16",
+                "arguments": [{
+                    "name": "where",
+                    "type": "int"
+                }],
+                "type": "short"
+            },
+            {
+                "name": "copyToByteArray",
+                "arguments": [
+                    {
+                        "name": "array",
+                        "type": "byte[]"
+                    },
+                    {
+                        "name": "array_offset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "mem_offset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "len",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "copyToMemory",
+                "arguments": [
+                    {
+                        "name": "dst",
+                        "type": "Memory"
+                    },
+                    {
+                        "name": "srcOffset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dstOffset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "len",
+                        "type": "int"
+                    }
+                ],
+                "type": "int"
+            },
+            {
+                "name": "getReadOnlySubRange",
+                "arguments": [
+                    {
+                        "name": "start",
+                        "type": "int"
+                    },
+                    {
+                        "name": "size",
+                        "type": "int"
+                    }
+                ],
+                "type": "ReadOnlyMemory"
+            },
+            {"comment": "565"},
+            {
+                "name": "size",
+                "type": "int"
+            },
+            {
+                "name": "getStartAddress",
+                "type": "int"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " ReadOnlyMemory ",
+        "type": " interface"
+    }
+]

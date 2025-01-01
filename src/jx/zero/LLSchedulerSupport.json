@@ -1,0 +1,90 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {"comment": "523"},
+    {
+        "extends": " Portal ",
+        "children": [
+            {"comment": "524"},
+            {
+                "name": "preemptCurrentThread",
+                "type": "CPUState"
+            },
+            {"comment": "525"},
+            {
+                "name": "interruptCurrentThread",
+                "type": "CPUState"
+            },
+            {
+                "name": "activateDomain",
+                "arguments": [{
+                    "name": "domain",
+                    "type": "Domain"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "activateIdleThread",
+                "type": "void"
+            },
+            {"comment": "526"},
+            {
+                "name": "isRunnable",
+                "arguments": [{
+                    "name": "domain",
+                    "type": "Domain"
+                }],
+                "type": "boolean"
+            },
+            {"comment": "527"},
+            {
+                "name": "getDomainTimeslice",
+                "type": "int"
+            },
+            {"comment": "528"},
+            {
+                "name": "tuneTimer",
+                "arguments": [{
+                    "name": "time",
+                    "type": "int"
+                }],
+                "type": "void"
+            },
+            {"comment": "529"},
+            {
+                "name": "readTimer",
+                "type": "int"
+            },
+            {"comment": "530"},
+            {
+                "name": "dumpDomain",
+                "arguments": [{
+                    "name": "domain",
+                    "type": "Domain"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "dumpHLSched",
+                "arguments": [{
+                    "name": "domain",
+                    "type": "Domain"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "printDomainName",
+                "arguments": [{
+                    "name": "domain",
+                    "type": "Domain"
+                }],
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " LLSchedulerSupport ",
+        "type": " interface"
+    }
+]

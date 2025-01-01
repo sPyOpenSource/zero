@@ -1,0 +1,27 @@
+[
+    {
+        "package": " jx.zero.scheduler",
+        "language": "java"
+    },
+    {"type": "import jx.zero.CPUState"},
+    {"comment": "622"},
+    {
+        "children": [
+            {"comment": "623"},
+            {"comment": "624"},
+            {"comment": "625"},
+            {"comment": "626"},
+            {
+                "name": "preempted",
+                "arguments": [{
+                    "name": "newThread",
+                    "type": "CPUState"
+                }],
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " HLS_preempted",
+        "type": " interface"
+    }
+]

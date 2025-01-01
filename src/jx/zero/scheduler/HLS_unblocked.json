@@ -1,0 +1,27 @@
+[
+    {
+        "package": " jx.zero.scheduler",
+        "language": "java"
+    },
+    {"type": "import jx.zero.CPUState"},
+    {"comment": "637"},
+    {
+        "children": [
+            {"comment": "638"},
+            {"comment": "639"},
+            {"comment": "640"},
+            {"comment": "641"},
+            {
+                "name": "unblocked",
+                "arguments": [{
+                    "name": "newThread",
+                    "type": "CPUState"
+                }],
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " HLS_unblocked",
+        "type": " interface"
+    }
+]

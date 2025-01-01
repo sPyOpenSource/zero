@@ -1,0 +1,74 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " FirstLevelIrqHandler",
+        "children": [
+            {"comment": "531"},
+            {"comment": "532"},
+            {"comment": "533"},
+            {
+                "name": "activate_currDomain",
+                "type": "void"
+            },
+            {"comment": "534"},
+            {
+                "name": "activate_nextDomain",
+                "type": "void"
+            },
+            {"comment": "535"},
+            {
+                "name": "registerDomain",
+                "arguments": [{
+                    "name": "domain",
+                    "type": "Domain"
+                }],
+                "type": "void"
+            },
+            {"comment": "536"},
+            {
+                "name": "unregisterDomain",
+                "arguments": [{
+                    "name": "domain",
+                    "type": "Domain"
+                }],
+                "type": "void"
+            },
+            {"comment": "537"},
+            {
+                "name": "dump",
+                "type": "void"
+            },
+            {"comment": "538"},
+            {
+                "name": "setTimeSlice",
+                "arguments": [
+                    {
+                        "name": "domain",
+                        "type": "Domain"
+                    },
+                    {
+                        "name": "time",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {"comment": "539"},
+            {"comment": "540"},
+            {
+                "name": "registered",
+                "arguments": [{
+                    "name": "irq_nr",
+                    "type": "int"
+                }],
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " LowLevelScheduler ",
+        "type": " interface"
+    }
+]

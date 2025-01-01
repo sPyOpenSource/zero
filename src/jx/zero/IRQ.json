@@ -1,0 +1,68 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {"comment": "511"},
+            {
+                "name": "installFirstLevelHandler",
+                "arguments": [
+                    {
+                        "name": "irq",
+                        "type": "int"
+                    },
+                    {
+                        "name": "h",
+                        "type": "FirstLevelIrqHandler"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "enableIRQ",
+                "arguments": [{
+                    "name": "irq",
+                    "type": "int"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "disableIRQ",
+                "arguments": [{
+                    "name": "irq",
+                    "type": "int"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "enableAll",
+                "type": "void"
+            },
+            {
+                "name": "disableAll",
+                "type": "void"
+            },
+            {"comment": "512"},
+            {
+                "name": "setDestination",
+                "arguments": [
+                    {
+                        "name": "irq",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dest_cpu",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " IRQ ",
+        "type": " interface"
+    }
+]

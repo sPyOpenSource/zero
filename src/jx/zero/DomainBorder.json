@@ -1,0 +1,30 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "createPortal",
+                "arguments": [{
+                    "name": "info",
+                    "type": "PortalInfo"
+                }],
+                "type": "boolean"
+            },
+            {
+                "name": "destroyPortal",
+                "arguments": [{
+                    "name": "info",
+                    "type": "PortalInfo"
+                }],
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " DomainBorder ",
+        "type": " interface"
+    }
+]

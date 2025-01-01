@@ -1,0 +1,27 @@
+[
+    {
+        "package": " jx.zero.scheduler",
+        "language": "java"
+    },
+    {"type": "import jx.zero.CPUState"},
+    {"comment": "612"},
+    {
+        "children": [
+            {"comment": "613"},
+            {"comment": "614"},
+            {"comment": "615"},
+            {"comment": "616"},
+            {
+                "name": "interrupted",
+                "arguments": [{
+                    "name": "newThread",
+                    "type": "CPUState"
+                }],
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " HLS_interrupted",
+        "type": " interface"
+    }
+]

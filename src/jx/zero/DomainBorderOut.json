@@ -1,0 +1,23 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " DomainBorder, Portal ",
+        "children": [
+            {"comment": "486"},
+            {
+                "name": "outBound",
+                "arguments": [{
+                    "name": "info",
+                    "type": "InterceptOutboundInfo"
+                }],
+                "type": "boolean"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " DomainBorderOut ",
+        "type": " interface"
+    }
+]

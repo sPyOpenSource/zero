@@ -1,0 +1,40 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "getTime",
+                "type": "int"
+            },
+            {
+                "name": "installIntervallTimer",
+                "arguments": [
+                    {
+                        "name": "atomic",
+                        "type": "AtomicVariable"
+                    },
+                    {
+                        "name": "state",
+                        "type": "CPUState"
+                    },
+                    {
+                        "name": "sec",
+                        "type": "int"
+                    },
+                    {
+                        "name": "usec",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " TimerEmulation ",
+        "type": " interface"
+    }
+]

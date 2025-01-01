@@ -1,0 +1,61 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "get",
+                "type": "Object"
+            },
+            {
+                "name": "set",
+                "arguments": [{
+                    "name": "value",
+                    "type": "Object"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "atomicUpdateUnblock",
+                "arguments": [
+                    {
+                        "name": "value",
+                        "type": "Object"
+                    },
+                    {
+                        "name": "state",
+                        "type": "CPUState"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "blockIfEqual",
+                "arguments": [{
+                    "name": "testValue",
+                    "type": "Object"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "blockIfNotEqual",
+                "arguments": [{
+                    "name": "testValue",
+                    "type": "Object"
+                }],
+                "type": "void"
+            },
+            {"comment": "453"},
+            {
+                "name": "activateListMode",
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " AtomicVariable ",
+        "type": " interface"
+    }
+]

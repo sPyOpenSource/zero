@@ -1,0 +1,79 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {"comment": "487"},
+            {
+                "name": "allocObject",
+                "arguments": [{
+                    "name": "cl",
+                    "type": "VMClass"
+                }],
+                "type": "int"
+            },
+            {"comment": "488"},
+            {
+                "name": "allocArray",
+                "arguments": [
+                    {
+                        "name": "elementClass",
+                        "type": "VMClass"
+                    },
+                    {
+                        "name": "size",
+                        "type": "int"
+                    }
+                ],
+                "type": "int"
+            },
+            {"comment": "489"},
+            {
+                "name": "allocTCB",
+                "arguments": [{
+                    "name": "sizeInBytes",
+                    "type": "int"
+                }],
+                "type": "int"
+            },
+            {"comment": "490"},
+            {
+                "name": "allocStack",
+                "arguments": [{
+                    "name": "sizeInBytes",
+                    "type": "int"
+                }],
+                "type": "int"
+            },
+            {"comment": "491"},
+            {
+                "name": "allocStaticFields",
+                "arguments": [{
+                    "name": "numberOfFields",
+                    "type": "int"
+                }],
+                "type": "int"
+            },
+            {"comment": "492"},
+            {
+                "name": "allocCode",
+                "arguments": [{
+                    "name": "numberOfCodeBytes",
+                    "type": "int"
+                }],
+                "type": "int"
+            },
+            {"comment": "493"},
+            {
+                "name": "threadExiting",
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " DomainMemoryManager ",
+        "type": " interface"
+    }
+]

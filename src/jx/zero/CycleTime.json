@@ -1,0 +1,44 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "children": [
+            {
+                "name": "low",
+                "type": "int"
+            },
+            {
+                "name": "high",
+                "type": "int"
+            },
+            {
+                "children": [
+                    {"type": " CycleTime diff = new CycleTime()"},
+                    {"type": " int l = low >>> 1"},
+                    {"type": " l = l - (t.low >>> 1)"},
+                    {"type": " diff.low = l << 1"},
+                    {
+                        "children": [{"type": " diff.high = high - t.high"}],
+                        "type": " if (l >= 0) "
+                    },
+                    {
+                        "children": [{"type": " diff.high = high - t.high - 1"}],
+                        "type": "else "
+                    },
+                    {"type": " return diff"}
+                ],
+                "name": "subtract",
+                "arguments": [{
+                    "name": "t",
+                    "type": "CycleTime"
+                }],
+                "type": "CycleTime"
+            }
+        ],
+        "modifier": ["public"],
+        "name": "CycleTime ",
+        "type": " class"
+    }
+]

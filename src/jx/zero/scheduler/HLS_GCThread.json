@@ -1,0 +1,53 @@
+[
+    {
+        "package": " jx.zero.scheduler",
+        "language": "java"
+    },
+    {"type": "import jx.zero.CPUState"},
+    {"comment": "583"},
+    {
+        "children": [
+            {"comment": "584"},
+            {"comment": "585"},
+            {"comment": "586"},
+            {"comment": "587"},
+            {
+                "name": "startGCThread",
+                "arguments": [
+                    {
+                        "name": "interruptedThread",
+                        "type": "CPUState"
+                    },
+                    {
+                        "name": "GCThread",
+                        "type": "CPUState"
+                    }
+                ],
+                "type": "void"
+            },
+            {"comment": "588"},
+            {"comment": "589"},
+            {
+                "name": "unblockedGCThread",
+                "arguments": [{
+                    "name": "GCThread",
+                    "type": "CPUState"
+                }],
+                "type": "void"
+            },
+            {"comment": "590"},
+            {"comment": "591"},
+            {
+                "name": "destroyedGCThread",
+                "arguments": [{
+                    "name": "GCThread",
+                    "type": "CPUState"
+                }],
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " HLS_GCThread",
+        "type": " interface"
+    }
+]

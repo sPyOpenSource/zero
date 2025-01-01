@@ -1,0 +1,234 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {"comment": "579"},
+    {
+        "children": [
+            {
+                "children": [{"type": " return (short)(((value & 0xff00) >>> 8) | ((value & 0x00ff) << 8))"}],
+                "name": "swapShortByteOrder",
+                "arguments": [{
+                    "name": "value",
+                    "type": "short"
+                }],
+                "type": "short"
+            },
+            {
+                "children": [
+                    {"type": " int rvalue = 0"},
+                    {"type": " rvalue |= (value & 0x000000ff) << 24"},
+                    {"type": " rvalue |= (value & 0x0000ff00) << 8"},
+                    {"type": " rvalue |= (value & 0x00ff0000) >>> 8"},
+                    {"type": " rvalue |= (value & 0xff000000) >>> 24"},
+                    {"type": " return rvalue"}
+                ],
+                "name": "swapIntByteOrder",
+                "arguments": [{
+                    "name": "value",
+                    "type": "int"
+                }],
+                "type": "int"
+            },
+            {"comment": "580"},
+            {
+                "children": [
+                    {"type": " srcOffset += count"},
+                    {"type": " dstOffset += count"},
+                    {"type": " for(int i = 0"},
+                    {"type": " i < count"},
+                    {"type": " ++i) dst[--dstOffset] = src[--srcOffset]"}
+                ],
+                "name": "arraycopy_byte_left",
+                "arguments": [
+                    {
+                        "name": "src",
+                        "type": "byte[]"
+                    },
+                    {
+                        "name": "srcOffset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dst",
+                        "type": "byte[]"
+                    },
+                    {
+                        "name": "dstOffset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "count",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "children": [
+                    {"type": " for(int i = 0"},
+                    {"type": " i < count"},
+                    {"type": " i++) dst[dstOffset + i] = src[srcOffset + i]"}
+                ],
+                "name": "arraycopy_byte_right",
+                "arguments": [
+                    {
+                        "name": "src",
+                        "type": "byte[]"
+                    },
+                    {
+                        "name": "srcOffset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dst",
+                        "type": "byte[]"
+                    },
+                    {
+                        "name": "dstOffset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "count",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {"comment": "581"},
+            {
+                "children": [
+                    {"type": " srcOffset += count"},
+                    {"type": " dstOffset += count"},
+                    {"type": " for(int i = 0"},
+                    {"type": " i < count"},
+                    {"type": " ++i) dst[--dstOffset] = src[--srcOffset]"}
+                ],
+                "name": "arraycopy_char_left",
+                "arguments": [
+                    {
+                        "name": "src",
+                        "type": "char[]"
+                    },
+                    {
+                        "name": "srcOffset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dst",
+                        "type": "char[]"
+                    },
+                    {
+                        "name": "dstOffset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "count",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "children": [
+                    {"type": " for(int i = 0"},
+                    {"type": " i < count"},
+                    {"type": " i++) dst[dstOffset + i] = src[srcOffset + i]"}
+                ],
+                "name": "arraycopy_char_right",
+                "arguments": [
+                    {
+                        "name": "src",
+                        "type": "char[]"
+                    },
+                    {
+                        "name": "srcOffset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dst",
+                        "type": "char[]"
+                    },
+                    {
+                        "name": "dstOffset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "count",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {"comment": "582"},
+            {
+                "children": [
+                    {"type": " srcOffset += count"},
+                    {"type": " dstOffset += count"},
+                    {"type": " for(int i = 0"},
+                    {"type": " i < count"},
+                    {"type": " ++i) dst[--dstOffset] = src[--srcOffset]"}
+                ],
+                "name": "arraycopy_left",
+                "arguments": [
+                    {
+                        "name": "src",
+                        "type": "Object[]"
+                    },
+                    {
+                        "name": "srcOffset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dst",
+                        "type": "Object[]"
+                    },
+                    {
+                        "name": "dstOffset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "count",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "children": [
+                    {"type": " for(int i = 0"},
+                    {"type": " i < count"},
+                    {"type": " i++) dst[dstOffset + i] = src[srcOffset + i]"}
+                ],
+                "name": "arraycopy_right",
+                "arguments": [
+                    {
+                        "name": "src",
+                        "type": "Object[]"
+                    },
+                    {
+                        "name": "srcOffset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "dst",
+                        "type": "Object[]"
+                    },
+                    {
+                        "name": "dstOffset",
+                        "type": "int"
+                    },
+                    {
+                        "name": "count",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": "VMSupport ",
+        "type": " class"
+    }
+]

@@ -1,0 +1,45 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "registerPortal",
+                "arguments": [
+                    {
+                        "name": "portal",
+                        "type": "Portal"
+                    },
+                    {
+                        "name": "name",
+                        "type": "String"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "lookup",
+                "arguments": [{
+                    "name": "name",
+                    "type": "String"
+                }],
+                "type": "Portal"
+            },
+            {
+                "name": "lookupOrWait",
+                "arguments": [{
+                    "name": "name",
+                    "type": "String"
+                }],
+                "type": "Portal"
+            },
+            {"comment": "556"}
+        ],
+        "modifier": ["public"],
+        "name": " Naming ",
+        "type": " interface"
+    }
+]

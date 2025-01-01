@@ -1,0 +1,34 @@
+[
+    {
+        "package": " jx.zero.scheduler",
+        "language": "java"
+    },
+    {"type": "import jx.zero.CPUState"},
+    {"type": "import jx.zero.CPUStateLink"},
+    {"comment": "602"},
+    {
+        "children": [
+            {"comment": "603"},
+            {"comment": "604"},
+            {"comment": "605"},
+            {"comment": "606"},
+            {
+                "name": "blockedInService",
+                "arguments": [
+                    {
+                        "name": "Thread",
+                        "type": "CPUState"
+                    },
+                    {
+                        "name": "PortalThread",
+                        "type": "CPUStateLink"
+                    }
+                ],
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " HLS_blockedInService",
+        "type": " interface"
+    }
+]

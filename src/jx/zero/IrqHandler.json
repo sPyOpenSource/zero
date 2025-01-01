@@ -1,0 +1,16 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [{
+            "name": "interruptHandler",
+            "type": "void"
+        }],
+        "modifier": ["public"],
+        "name": " IrqHandler ",
+        "type": " interface"
+    }
+]

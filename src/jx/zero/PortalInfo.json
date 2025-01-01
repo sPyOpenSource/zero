@@ -1,0 +1,22 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "getTargetDomain",
+                "type": "Domain"
+            },
+            {
+                "name": "getServiceID",
+                "type": "int"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " PortalInfo ",
+        "type": " interface"
+    }
+]

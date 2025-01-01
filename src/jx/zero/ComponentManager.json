@@ -1,0 +1,46 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "registerLib",
+                "arguments": [
+                    {
+                        "name": "name",
+                        "type": "String"
+                    },
+                    {
+                        "name": "libcode",
+                        "type": "Memory"
+                    }
+                ],
+                "type": "void"
+            },
+            {"comment": "478"},
+            {
+                "name": "load",
+                "arguments": [{
+                    "name": "name",
+                    "type": "String"
+                }],
+                "type": "int"
+            },
+            {"comment": "479"},
+            {
+                "name": "setInheritThread",
+                "arguments": [{
+                    "name": "classname",
+                    "type": "String"
+                }],
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " ComponentManager ",
+        "type": " interface"
+    }
+]

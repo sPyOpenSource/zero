@@ -1,0 +1,67 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {"type": "import jx.zero.debug.MonitorCommand"},
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "dumpDomain",
+                "arguments": [{
+                    "name": "domain",
+                    "type": "Domain"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "dumpObject",
+                "arguments": [{
+                    "name": "o",
+                    "type": "Object"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "sendBinary",
+                "arguments": [
+                    {
+                        "name": "name",
+                        "type": "String"
+                    },
+                    {
+                        "name": "data",
+                        "type": "Memory"
+                    },
+                    {
+                        "name": "size",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "registerMonitorCommand",
+                "arguments": [
+                    {
+                        "name": "name",
+                        "type": "String"
+                    },
+                    {
+                        "name": "cmd",
+                        "type": "MonitorCommand"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "breakpoint",
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " DebugSupport ",
+        "type": " interface"
+    }
+]

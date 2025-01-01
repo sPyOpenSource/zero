@@ -1,0 +1,27 @@
+[
+    {
+        "package": " jx.zero.scheduler",
+        "language": "java"
+    },
+    {"type": "import jx.zero.CPUState"},
+    {"comment": "617"},
+    {
+        "children": [
+            {"comment": "618"},
+            {"comment": "619"},
+            {"comment": "620"},
+            {"comment": "621"},
+            {
+                "name": "portalCalled",
+                "arguments": [{
+                    "name": "Thread",
+                    "type": "CPUState"
+                }],
+                "type": "boolean"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " HLS_portalCalled",
+        "type": " interface"
+    }
+]

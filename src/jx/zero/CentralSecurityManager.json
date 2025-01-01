@@ -1,0 +1,78 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "addDomainAndPrincipal",
+                "arguments": [
+                    {
+                        "name": "d",
+                        "type": "Domain"
+                    },
+                    {
+                        "name": "p",
+                        "type": "Principal"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "getPrincipal",
+                "arguments": [{
+                    "name": "d",
+                    "type": "Domain"
+                }],
+                "type": "Principal"
+            },
+            {
+                "name": "installInterceptor",
+                "arguments": [
+                    {
+                        "name": "domain",
+                        "type": "Domain"
+                    },
+                    {
+                        "name": "interceptorClass",
+                        "type": "String"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "inheritPrincipal",
+                "arguments": [
+                    {
+                        "name": "source",
+                        "type": "Domain"
+                    },
+                    {
+                        "name": "destination",
+                        "type": "Domain"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "inheritInterceptor",
+                "arguments": [
+                    {
+                        "name": "source",
+                        "type": "Domain"
+                    },
+                    {
+                        "name": "destination",
+                        "type": "Domain"
+                    }
+                ],
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " CentralSecurityManager ",
+        "type": " interface"
+    }
+]

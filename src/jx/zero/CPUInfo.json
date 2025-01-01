@@ -1,0 +1,209 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "children": [
+            {
+                "name": "vendor",
+                "type": "String"
+            },
+            {
+                "name": "features",
+                "type": "int"
+            },
+            {
+                "name": "type",
+                "type": "int"
+            },
+            {
+                "name": "family",
+                "type": "int"
+            },
+            {
+                "name": "model",
+                "type": "int"
+            },
+            {
+                "name": "stepping",
+                "type": "int"
+            },
+            {
+                "name": "brand",
+                "type": "int"
+            },
+            {
+                "name": "TYPE_PRIMARY_CPU",
+                "type": "int"
+            },
+            {
+                "name": "TYPE_OVERDRIVE_CPU",
+                "type": "int"
+            },
+            {
+                "name": "TYPE_SECONDARY_MP_CPU",
+                "type": "int"
+            },
+            {
+                "name": "TYPE_RESERVED",
+                "type": "int"
+            },
+            {
+                "name": "FAMILY_486",
+                "type": "int"
+            },
+            {
+                "name": "FAMILY_P5",
+                "type": "int"
+            },
+            {
+                "name": "FAMILY_P6",
+                "type": "int"
+            },
+            {
+                "name": "FEATURE_XMM_MASK",
+                "type": "int"
+            },
+            {
+                "name": "FEATURE_FXSR_MASK",
+                "type": "int"
+            },
+            {
+                "name": "FEATURE_MMX_MASK",
+                "type": "int"
+            },
+            {
+                "name": "FEATURE_PSN_MASK",
+                "type": "int"
+            },
+            {
+                "name": "FEATURE_PSE36_MASK",
+                "type": "int"
+            },
+            {
+                "name": "FEATURE_PAT_MASK",
+                "type": "int"
+            },
+            {
+                "name": "FEATURE_CMOV_MASK",
+                "type": "int"
+            },
+            {
+                "name": "FEATURE_MCA_MASK",
+                "type": "int"
+            },
+            {
+                "name": "FEATURE_PGE_MASK",
+                "type": "int"
+            },
+            {
+                "name": "FEATURE_MTRR_MASK",
+                "type": "int"
+            },
+            {
+                "name": "FEATURE_SEP_MASK",
+                "type": "int"
+            },
+            {
+                "name": "FEATURE_APIC_MASK",
+                "type": "int"
+            },
+            {
+                "name": "FEATURE_CX8_MASK",
+                "type": "int"
+            },
+            {
+                "name": "FEATURE_MCE_MASK",
+                "type": "int"
+            },
+            {
+                "name": "FEATURE_PAE_MASK",
+                "type": "int"
+            },
+            {
+                "name": "FEATURE_MSR_MASK",
+                "type": "int"
+            },
+            {
+                "name": "FEATURE_TSC_MASK",
+                "type": "int"
+            },
+            {
+                "name": "FEATURE_PSE_MASK",
+                "type": "int"
+            },
+            {
+                "name": "FEATURE_DE_MASK",
+                "type": "int"
+            },
+            {
+                "name": "FEATURE_VME_MASK",
+                "type": "int"
+            },
+            {
+                "name": "FEATURE_FPU_MASK",
+                "type": "int"
+            },
+            {
+                "children": [{"type": " this.vendor = vendor"}],
+                "arguments": [{
+                    "name": "vendor",
+                    "type": "String"
+                }],
+                "type": "CPUInfo"
+            },
+            {
+                "children": [
+                    {"type": " this.vendor = vendor"},
+                    {"type": " this.type = type"},
+                    {"type": " this.family = family"},
+                    {"type": " this.model = model"},
+                    {"type": " this.stepping = stepping"},
+                    {"type": " this.brand = brand"},
+                    {"type": " this.features = features"},
+                    {"comment": "457"}
+                ],
+                "arguments": [
+                    {
+                        "name": "vendor",
+                        "type": "String"
+                    },
+                    {
+                        "name": "type",
+                        "type": "int"
+                    },
+                    {
+                        "name": "family",
+                        "type": "int"
+                    },
+                    {
+                        "name": "model",
+                        "type": "int"
+                    },
+                    {
+                        "name": "stepping",
+                        "type": "int"
+                    },
+                    {
+                        "name": "brand",
+                        "type": "int"
+                    },
+                    {
+                        "name": "features",
+                        "type": "int"
+                    }
+                ],
+                "type": "CPUInfo"
+            },
+            {
+                "children": [{"type": "return (features & FEATURE_MTRR_MASK) != 0"}],
+                "name": "hasMTRR",
+                "type": "boolean"
+            }
+        ],
+        "modifier": ["public"],
+        "name": "CPUInfo ",
+        "type": " class"
+    }
+]

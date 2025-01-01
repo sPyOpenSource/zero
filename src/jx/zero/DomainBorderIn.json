@@ -1,0 +1,23 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " DomainBorder, Portal ",
+        "children": [
+            {"comment": "485"},
+            {
+                "name": "inBound",
+                "arguments": [{
+                    "name": "info",
+                    "type": "InterceptInboundInfo"
+                }],
+                "type": "boolean"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " DomainBorderIn ",
+        "type": " interface"
+    }
+]

@@ -1,0 +1,104 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "casObject",
+                "arguments": [
+                    {
+                        "name": "obj",
+                        "type": "Object"
+                    },
+                    {
+                        "name": "compareValue",
+                        "type": "Object"
+                    },
+                    {
+                        "name": "setValue",
+                        "type": "Object"
+                    }
+                ],
+                "type": "boolean"
+            },
+            {
+                "name": "casInt",
+                "arguments": [
+                    {
+                        "name": "obj",
+                        "type": "Object"
+                    },
+                    {
+                        "name": "compareValue",
+                        "type": "int"
+                    },
+                    {
+                        "name": "setValue",
+                        "type": "int"
+                    }
+                ],
+                "type": "boolean"
+            },
+            {
+                "name": "casBoolean",
+                "arguments": [
+                    {
+                        "name": "obj",
+                        "type": "Object"
+                    },
+                    {
+                        "name": "compareValue",
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "setValue",
+                        "type": "boolean"
+                    }
+                ],
+                "type": "boolean"
+            },
+            {
+                "name": "casShort",
+                "arguments": [
+                    {
+                        "name": "obj",
+                        "type": "Object"
+                    },
+                    {
+                        "name": "compareValue",
+                        "type": "short"
+                    },
+                    {
+                        "name": "setValue",
+                        "type": "short"
+                    }
+                ],
+                "type": "boolean"
+            },
+            {
+                "name": "casByte",
+                "arguments": [
+                    {
+                        "name": "obj",
+                        "type": "Object"
+                    },
+                    {
+                        "name": "compareValue",
+                        "type": "byte"
+                    },
+                    {
+                        "name": "setValue",
+                        "type": "byte"
+                    }
+                ],
+                "type": "boolean"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " CAS ",
+        "type": " interface"
+    }
+]

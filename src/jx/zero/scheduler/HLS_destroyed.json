@@ -1,0 +1,27 @@
+[
+    {
+        "package": " jx.zero.scheduler",
+        "language": "java"
+    },
+    {"type": "import jx.zero.CPUState"},
+    {"comment": "607"},
+    {
+        "children": [
+            {"comment": "608"},
+            {"comment": "609"},
+            {"comment": "610"},
+            {"comment": "611"},
+            {
+                "name": "destroyed",
+                "arguments": [{
+                    "name": "Thread",
+                    "type": "CPUState"
+                }],
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " HLS_destroyed",
+        "type": " interface"
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "package": " jx.zero.scheduler",
+        "language": "java"
+    },
+    {"type": "import jx.zero.*"},
+    {"comment": "649"},
+    {
+        "children": [
+            {"comment": "650"},
+            {"comment": "651"},
+            {"comment": "652"},
+            {"comment": "653"},
+            {"comment": "654"},
+            {"comment": "655"},
+            {"comment": "656"},
+            {
+                "name": "Scheduler_preempted",
+                "type": "boolean"
+            },
+            {"comment": "657"},
+            {"comment": "658"},
+            {
+                "name": "Scheduler_interrupted",
+                "type": "boolean"
+            },
+            {"comment": "659"},
+            {"comment": "660"},
+            {"comment": "661"},
+            {"comment": "662"},
+            {"comment": "663"},
+            {
+                "name": "created",
+                "arguments": [{
+                    "name": "newThread",
+                    "type": "CPUState"
+                }],
+                "type": "void"
+            },
+            {"comment": "664"},
+            {"comment": "665"},
+            {"comment": "666"},
+            {"comment": "667"},
+            {"comment": "668"},
+            {"comment": "669"},
+            {"comment": "670"},
+            {"comment": "671"},
+            {
+                "name": "activated",
+                "type": "void"
+            },
+            {"comment": "672"},
+            {"comment": "673"},
+            {"comment": "674"},
+            {"comment": "675"},
+            {"comment": "676"},
+            {
+                "name": "dump",
+                "type": "void"
+            },
+            {"comment": "677"},
+            {"comment": "678"},
+            {
+                "name": "registered",
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " HighLevelScheduler",
+        "type": " interface"
+    }
+]

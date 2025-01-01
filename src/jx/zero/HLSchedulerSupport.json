@@ -1,0 +1,111 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {"comment": "498"},
+    {
+        "extends": " Portal ",
+        "children": [
+            {"comment": "499"},
+            {"comment": "500"},
+            {"comment": "501"},
+            {
+                "name": "activateThread",
+                "arguments": [{
+                    "name": "state",
+                    "type": "CPUState"
+                }],
+                "type": "void"
+            },
+            {"comment": "502"},
+            {"comment": "503"},
+            {"comment": "504"},
+            {
+                "name": "activateService",
+                "arguments": [{
+                    "name": "state",
+                    "type": "CPUStateLink"
+                }],
+                "type": "boolean"
+            },
+            {"comment": "505"},
+            {"comment": "506"},
+            {
+                "name": "yield",
+                "type": "void"
+            },
+            {"comment": "507"},
+            {
+                "name": "clearMyRunnableFlag",
+                "type": "void"
+            },
+            {"comment": "508"},
+            {
+                "name": "getTimeBaseInMicros",
+                "type": "int"
+            },
+            {
+                "name": "getDomainTimeslice",
+                "type": "int"
+            },
+            {
+                "name": "setMyTimeslice",
+                "arguments": [{
+                    "name": "time",
+                    "type": "int"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "setTimeslice",
+                "arguments": [
+                    {
+                        "name": "domain",
+                        "type": "Domain"
+                    },
+                    {
+                        "name": "time",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {"comment": "509"},
+            {
+                "name": "storeThreadInfo",
+                "arguments": [
+                    {
+                        "name": "state",
+                        "type": "CPUState"
+                    },
+                    {
+                        "name": "data",
+                        "type": "Object"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "getThreadInfo",
+                "arguments": [{
+                    "name": "state",
+                    "type": "CPUState"
+                }],
+                "type": "Object"
+            },
+            {"comment": "510"},
+            {
+                "name": "dumpThread",
+                "arguments": [{
+                    "name": "state",
+                    "type": "CPUState"
+                }],
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " HLSchedulerSupport ",
+        "type": " interface"
+    }
+]

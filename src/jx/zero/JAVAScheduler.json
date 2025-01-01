@@ -1,0 +1,39 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "children": [
+            {
+                "name": "add",
+                "arguments": [{
+                    "name": "newThread",
+                    "type": "CPUState"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "removeNext",
+                "type": "CPUState"
+            },
+            {
+                "name": "dump",
+                "type": "void"
+            },
+            {"comment": "514"},
+            {
+                "name": "init",
+                "arguments": [{
+                    "name": "irq_nr",
+                    "type": "int"
+                }],
+                "type": "void"
+            },
+            {"comment": "515"}
+        ],
+        "modifier": ["public"],
+        "name": " JAVAScheduler",
+        "type": " interface"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "children": [
+            {
+                "name": "getName",
+                "type": "String"
+            },
+            {
+                "name": "isPrimitive",
+                "type": "boolean"
+            },
+            {
+                "name": "equals",
+                "arguments": [{
+                    "name": "vmcls",
+                    "type": "VMClass"
+                }],
+                "type": "boolean"
+            },
+            {"comment": "577"},
+            {
+                "name": "getInstanceSize",
+                "type": "int"
+            },
+            {
+                "name": "newInstance",
+                "type": "Object"
+            },
+            {
+                "name": "getMethods",
+                "type": "VMMethod[]"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " VMClass ",
+        "type": " interface"
+    }
+]

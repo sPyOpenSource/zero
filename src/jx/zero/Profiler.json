@@ -1,0 +1,65 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "restart",
+                "type": "void"
+            },
+            {
+                "name": "shell",
+                "type": "void"
+            },
+            {
+                "name": "startCalibration",
+                "type": "void"
+            },
+            {"comment": "559"},
+            {
+                "name": "endCalibration",
+                "arguments": [
+                    {
+                        "name": "time1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "time2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "time3",
+                        "type": "int"
+                    }
+                ],
+                "type": "boolean"
+            },
+            {
+                "name": "getAverageCyclesOfMethod",
+                "arguments": [{
+                    "name": "methodName",
+                    "type": "String"
+                }],
+                "type": "int"
+            },
+            {
+                "name": "startSampling",
+                "type": "void"
+            },
+            {
+                "name": "stopSampling",
+                "type": "void"
+            },
+            {
+                "name": "isSampling",
+                "type": "boolean"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " Profiler ",
+        "type": " interface"
+    }
+]

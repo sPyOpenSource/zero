@@ -1,0 +1,15 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "children": [{
+            "name": "getInitialNaming",
+            "type": "Naming"
+        }],
+        "modifier": ["public"],
+        "name": "InitialNaming ",
+        "type": " class"
+    }
+]

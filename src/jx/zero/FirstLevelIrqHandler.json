@@ -1,0 +1,15 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "children": [{
+            "name": "interrupt",
+            "type": "void"
+        }],
+        "modifier": ["public"],
+        "name": " FirstLevelIrqHandler ",
+        "type": " interface"
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "children": [{
+            "name": "equals",
+            "arguments": [{
+                "name": "p",
+                "type": "Principal"
+            }],
+            "type": "boolean"
+        }],
+        "modifier": ["public"],
+        "name": " Principal ",
+        "type": " interface"
+    }
+]

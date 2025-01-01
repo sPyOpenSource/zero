@@ -1,0 +1,150 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "createDomain",
+                "arguments": [
+                    {
+                        "name": "name",
+                        "type": "String"
+                    },
+                    {
+                        "name": "cpus",
+                        "type": "CPU[]"
+                    },
+                    {
+                        "name": "HLSchedClass",
+                        "type": "String[]"
+                    },
+                    {
+                        "name": "domainCode",
+                        "type": "String"
+                    },
+                    {
+                        "name": "libs",
+                        "type": "String[]"
+                    },
+                    {
+                        "name": "startClass",
+                        "type": "String"
+                    },
+                    {
+                        "name": "gcinfo0",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gcinfo1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gcinfo2",
+                        "type": "int"
+                    },
+                    {
+                        "name": "gcinfo3",
+                        "type": "String"
+                    },
+                    {
+                        "name": "gcinfo4",
+                        "type": "int"
+                    },
+                    {
+                        "name": "codeSize",
+                        "type": "int"
+                    },
+                    {
+                        "name": "argv",
+                        "type": "String[]"
+                    },
+                    {
+                        "name": "naming",
+                        "type": "Naming"
+                    },
+                    {
+                        "name": "moreArgs",
+                        "type": "Object[]"
+                    },
+                    {
+                        "name": "garbageCollector",
+                        "type": "int"
+                    },
+                    {
+                        "name": "schedinfo",
+                        "type": "int[]"
+                    }
+                ],
+                "type": "Domain"
+            },
+            {
+                "name": "getDomainZero",
+                "type": "Domain"
+            },
+            {
+                "name": "getCurrentDomain",
+                "type": "Domain"
+            },
+            {
+                "name": "installInterceptor",
+                "arguments": [
+                    {
+                        "name": "domain",
+                        "type": "Domain"
+                    },
+                    {
+                        "name": "border",
+                        "type": "DomainBorder"
+                    },
+                    {
+                        "name": "thread",
+                        "type": "CPUState"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "gc",
+                "arguments": [{
+                    "name": "domain",
+                    "type": "Domain"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "freeze",
+                "arguments": [{
+                    "name": "domain",
+                    "type": "Domain"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "thaw",
+                "arguments": [{
+                    "name": "domain",
+                    "type": "Domain"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "terminate",
+                "arguments": [{
+                    "name": "domain",
+                    "type": "Domain"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "terminateCaller",
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " DomainManager ",
+        "type": " interface"
+    }
+]

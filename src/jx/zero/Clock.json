@@ -1,0 +1,81 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "getTicks",
+                "type": "long"
+            },
+            {
+                "name": "getTimeInMillis",
+                "type": "int"
+            },
+            {
+                "name": "getTicks_low",
+                "type": "int"
+            },
+            {
+                "name": "getTicks_high",
+                "type": "int"
+            },
+            {
+                "name": "toMicroSec",
+                "arguments": [{
+                    "name": "c",
+                    "type": "CycleTime"
+                }],
+                "type": "int"
+            },
+            {
+                "name": "toNanoSec",
+                "arguments": [{
+                    "name": "c",
+                    "type": "CycleTime"
+                }],
+                "type": "int"
+            },
+            {
+                "name": "toMilliSec",
+                "arguments": [{
+                    "name": "c",
+                    "type": "CycleTime"
+                }],
+                "type": "int"
+            },
+            {
+                "name": "getCycles",
+                "arguments": [{
+                    "name": "c",
+                    "type": "CycleTime"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "subtract",
+                "arguments": [
+                    {
+                        "name": "result",
+                        "type": "CycleTime"
+                    },
+                    {
+                        "name": "a",
+                        "type": "CycleTime"
+                    },
+                    {
+                        "name": "b",
+                        "type": "CycleTime"
+                    }
+                ],
+                "type": "void"
+            },
+            {"comment": "477"}
+        ],
+        "modifier": ["public"],
+        "name": " Clock ",
+        "type": " interface"
+    }
+]

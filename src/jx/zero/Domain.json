@@ -1,0 +1,34 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "getID",
+                "type": "int"
+            },
+            {
+                "name": "clearTCBflag",
+                "type": "void"
+            },
+            {
+                "name": "isActive",
+                "type": "boolean"
+            },
+            {
+                "name": "isTerminated",
+                "type": "boolean"
+            },
+            {
+                "name": "getName",
+                "type": "String"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " Domain ",
+        "type": " interface"
+    }
+]

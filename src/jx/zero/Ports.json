@@ -1,0 +1,146 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "outb",
+                "arguments": [
+                    {
+                        "name": "addr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "b",
+                        "type": "byte"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "outb_p",
+                "arguments": [
+                    {
+                        "name": "addr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "b",
+                        "type": "byte"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "inb",
+                "arguments": [{
+                    "name": "addr",
+                    "type": "int"
+                }],
+                "type": "byte"
+            },
+            {
+                "name": "inb_p",
+                "arguments": [{
+                    "name": "addr",
+                    "type": "int"
+                }],
+                "type": "byte"
+            },
+            {
+                "name": "outl",
+                "arguments": [
+                    {
+                        "name": "addr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "b",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "outl_p",
+                "arguments": [
+                    {
+                        "name": "addr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "b",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "inl",
+                "arguments": [{
+                    "name": "addr",
+                    "type": "int"
+                }],
+                "type": "int"
+            },
+            {
+                "name": "inl_p",
+                "arguments": [{
+                    "name": "addr",
+                    "type": "int"
+                }],
+                "type": "int"
+            },
+            {
+                "name": "outw",
+                "arguments": [
+                    {
+                        "name": "addr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "b",
+                        "type": "short"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "outw_p",
+                "arguments": [
+                    {
+                        "name": "addr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "b",
+                        "type": "short"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "inw",
+                "arguments": [{
+                    "name": "addr",
+                    "type": "int"
+                }],
+                "type": "short"
+            },
+            {
+                "name": "inw_p",
+                "arguments": [{
+                    "name": "addr",
+                    "type": "int"
+                }],
+                "type": "short"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " Ports ",
+        "type": " interface"
+    }
+]

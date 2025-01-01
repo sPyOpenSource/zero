@@ -1,0 +1,12 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "modifier": ["public"],
+        "name": " Stack ",
+        "type": " interface"
+    }
+]

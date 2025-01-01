@@ -1,0 +1,313 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {"comment": "458"},
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "yield",
+                "type": "void"
+            },
+            {
+                "name": "sleep",
+                "arguments": [
+                    {
+                        "name": "msec",
+                        "type": "int"
+                    },
+                    {
+                        "name": "usec",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "wait",
+                "arguments": [
+                    {
+                        "name": "var",
+                        "type": "Object"
+                    },
+                    {
+                        "name": "millis",
+                        "type": "int"
+                    },
+                    {
+                        "name": "nanos",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "notify",
+                "arguments": [{
+                    "name": "var",
+                    "type": "Object"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "notifyAll",
+                "arguments": [{
+                    "name": "var",
+                    "type": "Object"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "dump",
+                "arguments": [
+                    {
+                        "name": "msg",
+                        "type": "String"
+                    },
+                    {
+                        "name": "obj",
+                        "type": "Object"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "switchTo",
+                "arguments": [{
+                    "name": "state",
+                    "type": "CPUState"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "getCPUState",
+                "type": "CPUState"
+            },
+            {"comment": "459"},
+            {
+                "name": "block",
+                "type": "void"
+            },
+            {"comment": "460"},
+            {
+                "name": "blockIfNotUnblocked",
+                "type": "void"
+            },
+            {"comment": "461"},
+            {
+                "name": "clearUnblockFlag",
+                "type": "void"
+            },
+            {"comment": "462"},
+            {
+                "name": "waitUntilBlocked",
+                "arguments": [{
+                    "name": "thread",
+                    "type": "CPUState"
+                }],
+                "type": "void"
+            },
+            {"comment": "463"},
+            {
+                "name": "join",
+                "arguments": [{
+                    "name": "thread",
+                    "type": "CPUState"
+                }],
+                "type": "void"
+            },
+            {"comment": "464"},
+            {
+                "name": "unblock",
+                "arguments": [{
+                    "name": "state",
+                    "type": "CPUState"
+                }],
+                "type": "boolean"
+            },
+            {
+                "name": "createCPUState",
+                "arguments": [{
+                    "name": "entry",
+                    "type": "ThreadEntry"
+                }],
+                "type": "CPUState"
+            },
+            {
+                "name": "start",
+                "arguments": [{
+                    "name": "state",
+                    "type": "CPUState"
+                }],
+                "type": "boolean"
+            },
+            {
+                "name": "printStackTrace",
+                "type": "void"
+            },
+            {
+                "name": "getAtomicVariable",
+                "type": "AtomicVariable"
+            },
+            {
+                "name": "setThreadName",
+                "arguments": [{
+                    "name": "name",
+                    "type": "String"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "attachToThread",
+                "arguments": [{
+                    "name": "portalParameter",
+                    "type": "Object"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "getAttachedObject",
+                "type": "Object"
+            },
+            {
+                "name": "getCredential",
+                "type": "Credential"
+            },
+            {
+                "name": "createNewEvent",
+                "arguments": [{
+                    "name": "label",
+                    "type": "String"
+                }],
+                "type": "int"
+            },
+            {
+                "name": "recordEvent",
+                "arguments": [{
+                    "name": "nr",
+                    "type": "int"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "recordEventWithInfo",
+                "arguments": [
+                    {
+                        "name": "nr",
+                        "type": "int"
+                    },
+                    {
+                        "name": "info",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "getCAS",
+                "arguments": [
+                    {
+                        "name": "classname",
+                        "type": "String"
+                    },
+                    {
+                        "name": "fieldname",
+                        "type": "String"
+                    }
+                ],
+                "type": "CAS"
+            },
+            {"comment": "465"},
+            {
+                "name": "getClass",
+                "arguments": [{
+                    "name": "name",
+                    "type": "String"
+                }],
+                "type": "VMClass"
+            },
+            {
+                "name": "getVMClass",
+                "arguments": [{
+                    "name": "obj",
+                    "type": "Object"
+                }],
+                "type": "VMClass"
+            },
+            {"comment": "466"},
+            {
+                "name": "getVMObject",
+                "type": "VMObject"
+            },
+            {"comment": "467"},
+            {
+                "name": "assertInterruptEnabled",
+                "type": "void"
+            },
+            {
+                "name": "executeClassConstructors",
+                "arguments": [{
+                    "name": "componentID",
+                    "type": "int"
+                }],
+                "type": "void"
+            },
+            {"comment": "468"},
+            {
+                "name": "reboot",
+                "type": "void"
+            },
+            {"comment": "469"},
+            {
+                "name": "getStackDepth",
+                "type": "int"
+            },
+            {
+                "name": "getStackFrameClassName",
+                "arguments": [{
+                    "name": "depth",
+                    "type": "int"
+                }],
+                "type": "String"
+            },
+            {
+                "name": "getStackFrameMethodName",
+                "arguments": [{
+                    "name": "depth",
+                    "type": "int"
+                }],
+                "type": "String"
+            },
+            {
+                "name": "getStackFrameLine",
+                "arguments": [{
+                    "name": "depth",
+                    "type": "int"
+                }],
+                "type": "int"
+            },
+            {
+                "name": "getStackFrameBytecode",
+                "arguments": [{
+                    "name": "depth",
+                    "type": "int"
+                }],
+                "type": "int"
+            },
+            {"comment": "470"},
+            {
+                "name": "inhibitScheduling",
+                "type": "void"
+            },
+            {
+                "name": "allowScheduling",
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " CPUManager ",
+        "type": " interface"
+    }
+]

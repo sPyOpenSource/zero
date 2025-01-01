@@ -1,0 +1,27 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {"comment": "572"},
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "disableThreadSwitching",
+                "type": "void"
+            },
+            {
+                "name": "enableThreadSwitching",
+                "type": "void"
+            },
+            {
+                "name": "blockAndEnableThreadSwitching",
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " Scheduler ",
+        "type": " interface"
+    }
+]

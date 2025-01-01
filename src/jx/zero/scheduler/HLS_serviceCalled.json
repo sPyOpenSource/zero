@@ -1,0 +1,34 @@
+[
+    {
+        "package": " jx.zero.scheduler",
+        "language": "java"
+    },
+    {"type": "import jx.zero.CPUState"},
+    {"type": "import jx.zero.CPUStateLink"},
+    {"comment": "627"},
+    {
+        "children": [
+            {"comment": "628"},
+            {"comment": "629"},
+            {"comment": "630"},
+            {"comment": "631"},
+            {
+                "name": "serviceCalled",
+                "arguments": [
+                    {
+                        "name": "Thread",
+                        "type": "CPUState"
+                    },
+                    {
+                        "name": "PortalThread",
+                        "type": "CPUStateLink"
+                    }
+                ],
+                "type": "boolean"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " HLS_serviceCalled",
+        "type": " interface"
+    }
+]

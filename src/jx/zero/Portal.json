@@ -1,0 +1,12 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {"comment": "558"},
+    {
+        "modifier": ["public"],
+        "name": " Portal ",
+        "type": " interface"
+    }
+]

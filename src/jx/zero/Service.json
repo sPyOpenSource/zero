@@ -1,0 +1,12 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {"comment": "573"},
+    {
+        "modifier": ["public"],
+        "name": " Service ",
+        "type": " interface"
+    }
+]

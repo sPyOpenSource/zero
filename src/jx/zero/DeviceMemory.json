@@ -1,0 +1,12 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Memory ",
+        "modifier": ["public"],
+        "name": " DeviceMemory ",
+        "type": " interface"
+    }
+]

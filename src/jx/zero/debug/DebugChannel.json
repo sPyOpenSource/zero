@@ -1,0 +1,45 @@
+[
+    {
+        "package": " jx.zero.debug",
+        "language": "java"
+    },
+    {"type": "import jx.zero.Portal"},
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "write",
+                "arguments": [{
+                    "name": "b",
+                    "type": "int"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "read",
+                "type": "int"
+            },
+            {
+                "name": "writeBuf",
+                "arguments": [
+                    {
+                        "name": "b",
+                        "type": "byte[]"
+                    },
+                    {
+                        "name": "off",
+                        "type": "int"
+                    },
+                    {
+                        "name": "len",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " DebugChannel ",
+        "type": " interface"
+    }
+]

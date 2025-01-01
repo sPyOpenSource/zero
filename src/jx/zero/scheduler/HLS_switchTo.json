@@ -1,0 +1,27 @@
+[
+    {
+        "package": " jx.zero.scheduler",
+        "language": "java"
+    },
+    {"type": "import jx.zero.CPUState"},
+    {"comment": "632"},
+    {
+        "children": [
+            {"comment": "633"},
+            {"comment": "634"},
+            {"comment": "635"},
+            {"comment": "636"},
+            {
+                "name": "switchedTo",
+                "arguments": [{
+                    "name": "Thread",
+                    "type": "CPUState"
+                }],
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " HLS_switchTo",
+        "type": " interface"
+    }
+]

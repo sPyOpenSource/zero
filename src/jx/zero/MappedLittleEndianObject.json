@@ -1,0 +1,13 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " MappedObject ",
+        "children": [{"comment": "541"}],
+        "modifier": ["public"],
+        "name": " MappedLittleEndianObject ",
+        "type": " interface"
+    }
+]

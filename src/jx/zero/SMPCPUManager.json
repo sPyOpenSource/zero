@@ -1,0 +1,151 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {"type": "import jx.zero.scheduler.HighLevelScheduler"},
+    {"comment": "566"},
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "start",
+                "arguments": [
+                    {
+                        "name": "state",
+                        "type": "CPUState"
+                    },
+                    {
+                        "name": "cpu",
+                        "type": "CPU"
+                    }
+                ],
+                "type": "boolean"
+            },
+            {
+                "name": "unblock",
+                "arguments": [
+                    {
+                        "name": "state",
+                        "type": "CPUState"
+                    },
+                    {
+                        "name": "cpu",
+                        "type": "CPU"
+                    }
+                ],
+                "type": "boolean"
+            },
+            {
+                "name": "swap_HLScheduler",
+                "arguments": [
+                    {
+                        "name": "cpu",
+                        "type": "CPU"
+                    },
+                    {
+                        "name": "domain",
+                        "type": "Domain"
+                    },
+                    {
+                        "name": "oldSched",
+                        "type": "HighLevelScheduler"
+                    },
+                    {
+                        "name": "newSched",
+                        "type": "HighLevelScheduler"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "register_LLScheduler",
+                "arguments": [
+                    {
+                        "name": "cpu",
+                        "type": "CPU"
+                    },
+                    {
+                        "name": "sched",
+                        "type": "LowLevelScheduler"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "sendIPI",
+                "arguments": [
+                    {
+                        "name": "dest",
+                        "type": "CPU"
+                    },
+                    {
+                        "name": "vector",
+                        "type": "int"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "getMyCPU",
+                "type": "CPU"
+            },
+            {
+                "name": "getNumCPUs",
+                "type": "int"
+            },
+            {
+                "name": "getCPU",
+                "arguments": [{
+                    "name": "i",
+                    "type": "int"
+                }],
+                "type": "CPU"
+            },
+            {
+                "name": "test",
+                "arguments": [{
+                    "name": "val",
+                    "type": "int"
+                }],
+                "type": "int"
+            },
+            {"comment": "567"},
+            {
+                "name": "test2",
+                "arguments": [{
+                    "name": "val",
+                    "type": "int"
+                }],
+                "type": "int"
+            },
+            {"comment": "567"},
+            {
+                "name": "test_setAPICTimer",
+                "arguments": [{
+                    "name": "val",
+                    "type": "int"
+                }],
+                "type": "int"
+            },
+            {"comment": "567"},
+            {
+                "name": "dump",
+                "arguments": [{
+                    "name": "cpu",
+                    "type": "CPU"
+                }],
+                "type": "void"
+            },
+            {"comment": "567"},
+            {"comment": "571"},
+            {
+                "name": "createMutex",
+                "type": "Mutex"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " SMPCPUManager ",
+        "type": " interface"
+    }
+]

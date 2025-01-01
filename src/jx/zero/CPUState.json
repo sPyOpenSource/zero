@@ -1,0 +1,70 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {"comment": "471"},
+            {
+                "name": "getState",
+                "type": "int"
+            },
+            {
+                "name": "STATE_INIT",
+                "type": "int"
+            },
+            {
+                "name": "STATE_RUNNABLE",
+                "type": "int"
+            },
+            {
+                "name": "STATE_ZOMBIE",
+                "type": "int"
+            },
+            {
+                "name": "STATE_SLEEPING",
+                "type": "int"
+            },
+            {
+                "name": "STATE_WAITING",
+                "type": "int"
+            },
+            {
+                "name": "STATE_WAITPORTAL0",
+                "type": "int"
+            },
+            {
+                "name": "STATE_WAITPORTAL1",
+                "type": "int"
+            },
+            {
+                "name": "STATE_BLOCKEDUSER",
+                "type": "int"
+            },
+            {"comment": "472"},
+            {
+                "name": "isPortalThread",
+                "type": "boolean"
+            },
+            {"comment": "473"},
+            {
+                "name": "getNext",
+                "type": "CPUState"
+            },
+            {"comment": "474"},
+            {
+                "name": "setNext",
+                "arguments": [{
+                    "name": "next",
+                    "type": "CPUState"
+                }],
+                "type": "CPUState"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " CPUState ",
+        "type": " interface"
+    }
+]

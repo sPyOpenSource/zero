@@ -1,0 +1,65 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "alloc",
+                "arguments": [{
+                    "name": "size",
+                    "type": "int"
+                }],
+                "type": "Memory"
+            },
+            {"comment": "553"},
+            {
+                "name": "allocAligned",
+                "arguments": [
+                    {
+                        "name": "size",
+                        "type": "int"
+                    },
+                    {
+                        "name": "bytes",
+                        "type": "int"
+                    }
+                ],
+                "type": "Memory"
+            },
+            {
+                "name": "allocDeviceMemory",
+                "arguments": [
+                    {
+                        "name": "start",
+                        "type": "int"
+                    },
+                    {
+                        "name": "size",
+                        "type": "int"
+                    }
+                ],
+                "type": "DeviceMemory"
+            },
+            {"comment": "554"},
+            {
+                "name": "getTotalMemory",
+                "type": "int"
+            },
+            {
+                "name": "getTotalFreeMemory",
+                "type": "int"
+            },
+            {"comment": "555"},
+            {
+                "name": "getFreeHeapMemory",
+                "type": "int"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " MemoryManager ",
+        "type": " interface"
+    }
+]

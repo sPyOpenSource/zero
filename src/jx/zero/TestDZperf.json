@@ -1,0 +1,40 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {"type": "import jx.zero.scheduler.HighLevelScheduler"},
+    {"comment": "574"},
+    {
+        "extends": " Portal ",
+        "children": [
+            {"comment": "575"},
+            {
+                "name": "emptyMethod",
+                "type": "void"
+            },
+            {"comment": "576"},
+            {
+                "name": "prepareSchedulerMethod_registered_",
+                "arguments": [
+                    {
+                        "name": "worker",
+                        "type": "CPUState"
+                    },
+                    {
+                        "name": "HLS",
+                        "type": "HighLevelScheduler"
+                    }
+                ],
+                "type": "int"
+            },
+            {
+                "name": "callSchedulerMethod_registered_",
+                "type": "int"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " TestDZperf ",
+        "type": " interface"
+    }
+]

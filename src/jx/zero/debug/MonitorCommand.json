@@ -1,0 +1,27 @@
+[
+    {
+        "package": " jx.zero.debug",
+        "language": "java"
+    },
+    {"type": "import jx.zero.Portal"},
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "execCommand",
+                "arguments": [{
+                    "name": "args",
+                    "type": "String[]"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "getHelp",
+                "type": "String"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " MonitorCommand ",
+        "type": " interface"
+    }
+]

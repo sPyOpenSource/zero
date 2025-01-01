@@ -1,0 +1,61 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "getVideoMemory",
+                "type": "DeviceMemory"
+            },
+            {
+                "name": "getWidth",
+                "type": "int"
+            },
+            {
+                "name": "getHeight",
+                "type": "int"
+            },
+            {
+                "name": "getBytesPerLine",
+                "type": "int"
+            },
+            {
+                "name": "getBitsPerPixel",
+                "type": "int"
+            },
+            {"comment": "494"},
+            {
+                "name": "update",
+                "type": "void"
+            },
+            {"comment": "495"},
+            {
+                "name": "inputDevicesAvailable",
+                "type": "boolean"
+            },
+            {"comment": "496"},
+            {
+                "name": "checkEvent",
+                "arguments": [{
+                    "name": "event",
+                    "type": "FBEmulationEvent"
+                }],
+                "type": "boolean"
+            },
+            {
+                "name": "open",
+                "arguments": [{
+                    "name": "mode",
+                    "type": "int"
+                }],
+                "type": "boolean"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " FBEmulation ",
+        "type": " interface"
+    }
+]

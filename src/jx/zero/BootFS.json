@@ -1,0 +1,38 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "lookup",
+                "arguments": [{
+                    "name": "filename",
+                    "type": "String"
+                }],
+                "type": "boolean"
+            },
+            {
+                "name": "getFile",
+                "arguments": [{
+                    "name": "filename",
+                    "type": "String"
+                }],
+                "type": "ReadOnlyMemory"
+            },
+            {
+                "name": "getReadWriteFile",
+                "arguments": [{
+                    "name": "filename",
+                    "type": "String"
+                }],
+                "type": "Memory"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " BootFS ",
+        "type": " interface"
+    }
+]

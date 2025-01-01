@@ -1,0 +1,47 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "getSourceDomain",
+                "type": "Domain"
+            },
+            {
+                "name": "getTargetDomain",
+                "type": "Domain"
+            },
+            {
+                "name": "getMethod",
+                "type": "VMMethod"
+            },
+            {
+                "name": "getServiceObject",
+                "type": "VMObject"
+            },
+            {"comment": "513"},
+            {
+                "name": "getFirstParameter",
+                "arguments": [{
+                    "name": "obj",
+                    "type": "VMObject"
+                }],
+                "type": "boolean"
+            },
+            {
+                "name": "getNextParameter",
+                "arguments": [{
+                    "name": "result",
+                    "type": "VMObject"
+                }],
+                "type": "boolean"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " InterceptInboundInfo ",
+        "type": " interface"
+    }
+]

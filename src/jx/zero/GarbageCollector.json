@@ -1,0 +1,16 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [{
+            "name": "gc",
+            "type": "void"
+        }],
+        "modifier": ["public"],
+        "name": " GarbageCollector ",
+        "type": " interface"
+    }
+]

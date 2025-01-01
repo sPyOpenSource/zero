@@ -1,0 +1,35 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "children": [
+            {
+                "name": "getName",
+                "type": "String"
+            },
+            {
+                "name": "getSignature",
+                "type": "String"
+            },
+            {
+                "name": "invoke",
+                "arguments": [
+                    {
+                        "name": "obj",
+                        "type": "Object"
+                    },
+                    {
+                        "name": "args",
+                        "type": "Object[]"
+                    }
+                ],
+                "type": "Object"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " VMMethod ",
+        "type": " interface"
+    }
+]

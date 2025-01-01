@@ -1,0 +1,11 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "modifier": ["public"],
+        "name": " MappedObject ",
+        "type": " interface"
+    }
+]

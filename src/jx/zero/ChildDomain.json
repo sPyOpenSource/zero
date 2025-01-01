@@ -1,0 +1,13 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "children": [{"comment": "476"}],
+        "modifier": ["public"],
+        "name": " ChildDomain",
+        "comment": "475",
+        "type": " interface"
+    }
+]

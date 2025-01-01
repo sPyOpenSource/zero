@@ -1,0 +1,30 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "lock",
+                "type": "int"
+            },
+            {
+                "name": "trylock",
+                "type": "int"
+            },
+            {
+                "name": "unlock",
+                "type": "int"
+            },
+            {
+                "name": "destroy",
+                "type": "int"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " Mutex ",
+        "type": " interface"
+    }
+]

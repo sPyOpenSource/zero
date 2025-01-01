@@ -1,0 +1,15 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "children": [{
+            "name": "run",
+            "type": "void"
+        }],
+        "modifier": ["public"],
+        "name": " ThreadEntry ",
+        "type": " interface"
+    }
+]

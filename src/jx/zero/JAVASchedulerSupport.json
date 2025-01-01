@@ -1,0 +1,83 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {"comment": "516"},
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "getCurThr",
+                "type": "CPUState"
+            },
+            {
+                "name": "switchTo",
+                "arguments": [{
+                    "name": "state",
+                    "type": "CPUState"
+                }],
+                "type": "void"
+            },
+            {"comment": "517"},
+            {
+                "name": "getIdleThread",
+                "type": "CPUState"
+            },
+            {"comment": "518"},
+            {
+                "name": "setTimeslice",
+                "arguments": [{
+                    "name": "time",
+                    "type": "int"
+                }],
+                "type": "void"
+            },
+            {"comment": "519"},
+            {"comment": "520"},
+            {
+                "name": "storeThreadInfo",
+                "arguments": [
+                    {
+                        "name": "state",
+                        "type": "CPUState"
+                    },
+                    {
+                        "name": "data",
+                        "type": "Object"
+                    }
+                ],
+                "type": "void"
+            },
+            {
+                "name": "getThreadInfo",
+                "arguments": [{
+                    "name": "state",
+                    "type": "CPUState"
+                }],
+                "type": "Object"
+            },
+            {"comment": "521"},
+            {
+                "name": "getThreadDomain",
+                "arguments": [{
+                    "name": "state",
+                    "type": "CPUState"
+                }],
+                "type": "Domain"
+            },
+            {"comment": "522"},
+            {
+                "name": "dumpThread",
+                "arguments": [{
+                    "name": "state",
+                    "type": "CPUState"
+                }],
+                "type": "void"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " JAVASchedulerSupport ",
+        "type": " interface"
+    }
+]

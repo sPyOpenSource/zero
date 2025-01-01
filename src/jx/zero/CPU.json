@@ -1,0 +1,55 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {
+        "extends": " Portal ",
+        "children": [
+            {"comment": "454"},
+            {
+                "name": "load",
+                "arguments": [
+                    {
+                        "name": "oldState",
+                        "type": "CPUState"
+                    },
+                    {
+                        "name": "newState",
+                        "type": "CPUState"
+                    }
+                ],
+                "type": "void"
+            },
+            {"comment": "455"},
+            {
+                "name": "save",
+                "arguments": [{
+                    "name": "state",
+                    "type": "CPUState"
+                }],
+                "type": "void"
+            },
+            {
+                "name": "dump",
+                "arguments": [{
+                    "name": "state",
+                    "type": "CPUState"
+                }],
+                "type": "void"
+            },
+            {"comment": "456"},
+            {
+                "name": "getID",
+                "type": "int"
+            },
+            {
+                "name": "toString",
+                "type": "String"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " CPU ",
+        "type": " interface"
+    }
+]

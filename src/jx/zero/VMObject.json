@@ -1,0 +1,43 @@
+[
+    {
+        "package": " jx.zero",
+        "language": "java"
+    },
+    {"comment": "578"},
+    {
+        "extends": " Portal ",
+        "children": [
+            {
+                "name": "getVMClass",
+                "type": "VMClass"
+            },
+            {
+                "name": "getPrimitiveData",
+                "type": "int"
+            },
+            {
+                "name": "getString",
+                "type": "String"
+            },
+            {
+                "name": "getFirstSubObject",
+                "arguments": [{
+                    "name": "result",
+                    "type": "VMObject"
+                }],
+                "type": "boolean"
+            },
+            {
+                "name": "getNextSubObject",
+                "arguments": [{
+                    "name": "result",
+                    "type": "VMObject"
+                }],
+                "type": "boolean"
+            }
+        ],
+        "modifier": ["public"],
+        "name": " VMObject ",
+        "type": " interface"
+    }
+]
