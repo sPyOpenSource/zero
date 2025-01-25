@@ -4,10 +4,10 @@
         "language": "java"
     },
     {
-        "children": [{"comment": "476"}],
+        "children": [{"comment": "478"}],
         "modifier": ["public"],
         "name": " ChildDomain",
-        "comment": "475",
+        "comment": "477",
         "type": " interface"
     }
 ]

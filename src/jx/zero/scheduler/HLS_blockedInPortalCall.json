@@ -4,13 +4,13 @@
         "language": "java"
     },
     {"type": "import jx.zero.CPUState"},
-    {"comment": "597"},
+    {"comment": "600"},
     {
         "children": [
-            {"comment": "598"},
-            {"comment": "599"},
-            {"comment": "600"},
             {"comment": "601"},
+            {"comment": "602"},
+            {"comment": "603"},
+            {"comment": "604"},
             {
                 "name": "blockedInPortalCall",
                 "arguments": [{

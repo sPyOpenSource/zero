@@ -14,7 +14,7 @@
                 }],
                 "type": "Memory"
             },
-            {"comment": "553"},
+            {"comment": "556"},
             {
                 "name": "allocAligned",
                 "arguments": [
@@ -43,7 +43,7 @@
                 ],
                 "type": "DeviceMemory"
             },
-            {"comment": "554"},
+            {"comment": "557"},
             {
                 "name": "getTotalMemory",
                 "type": "int"
@@ -52,7 +52,7 @@
                 "name": "getTotalFreeMemory",
                 "type": "int"
             },
-            {"comment": "555"},
+            {"comment": "558"},
             {
                 "name": "getFreeHeapMemory",
                 "type": "int"

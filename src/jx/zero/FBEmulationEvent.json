@@ -61,7 +61,7 @@
                 "name": "state",
                 "type": "int"
             },
-            {"comment": "497"}
+            {"comment": "499"}
         ],
         "modifier": ["public"],
         "name": "FBEmulationEvent ",

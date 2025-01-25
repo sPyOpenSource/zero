@@ -6,7 +6,7 @@
     {
         "extends": " Portal ",
         "children": [
-            {"comment": "454"},
+            {"comment": "456"},
             {
                 "name": "load",
                 "arguments": [
@@ -21,7 +21,7 @@
                 ],
                 "type": "void"
             },
-            {"comment": "455"},
+            {"comment": "457"},
             {
                 "name": "save",
                 "arguments": [{
@@ -38,7 +38,7 @@
                 }],
                 "type": "void"
             },
-            {"comment": "456"},
+            {"comment": "458"},
             {
                 "name": "getID",
                 "type": "int"

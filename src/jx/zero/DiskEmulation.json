@@ -3,21 +3,21 @@
         "package": " jx.zero",
         "language": "java"
     },
-    {"comment": "480"},
+    {"comment": "482"},
     {
         "extends": " Portal ",
         "children": [
-            {"comment": "481"},
+            {"comment": "483"},
             {
                 "name": "getCapacity",
                 "type": "int"
             },
-            {"comment": "482"},
+            {"comment": "484"},
             {
                 "name": "getSectorSize",
                 "type": "int"
             },
-            {"comment": "483"},
+            {"comment": "485"},
             {
                 "name": "readSectors",
                 "arguments": [
@@ -40,7 +40,7 @@
                 ],
                 "type": "void"
             },
-            {"comment": "484"},
+            {"comment": "486"},
             {
                 "name": "writeSectors",
                 "arguments": [

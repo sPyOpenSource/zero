@@ -3,16 +3,16 @@
         "package": " jx.zero",
         "language": "java"
     },
-    {"comment": "523"},
+    {"comment": "526"},
     {
         "extends": " Portal ",
         "children": [
-            {"comment": "524"},
+            {"comment": "527"},
             {
                 "name": "preemptCurrentThread",
                 "type": "CPUState"
             },
-            {"comment": "525"},
+            {"comment": "528"},
             {
                 "name": "interruptCurrentThread",
                 "type": "CPUState"
@@ -29,7 +29,7 @@
                 "name": "activateIdleThread",
                 "type": "void"
             },
-            {"comment": "526"},
+            {"comment": "529"},
             {
                 "name": "isRunnable",
                 "arguments": [{
@@ -38,12 +38,12 @@
                 }],
                 "type": "boolean"
             },
-            {"comment": "527"},
+            {"comment": "530"},
             {
                 "name": "getDomainTimeslice",
                 "type": "int"
             },
-            {"comment": "528"},
+            {"comment": "531"},
             {
                 "name": "tuneTimer",
                 "arguments": [{
@@ -52,12 +52,12 @@
                 }],
                 "type": "void"
             },
-            {"comment": "529"},
+            {"comment": "532"},
             {
                 "name": "readTimer",
                 "type": "int"
             },
-            {"comment": "530"},
+            {"comment": "533"},
             {
                 "name": "dumpDomain",
                 "arguments": [{

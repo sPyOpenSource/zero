@@ -4,10 +4,14 @@
         "language": "java"
     },
     {
-        "children": [{
-            "name": "getInitialNaming",
-            "type": "Naming"
-        }],
+        "children": [
+            {"comment": "515"},
+            {
+                "children": [{"type": " return null"}],
+                "name": "getInitialNaming",
+                "type": "Naming"
+            }
+        ],
         "modifier": ["public"],
         "name": "InitialNaming ",
         "type": " class"

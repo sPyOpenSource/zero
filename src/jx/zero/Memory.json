@@ -6,7 +6,7 @@
     {
         "extends": " ReadOnlyMemory ",
         "children": [
-            {"comment": "542"},
+            {"comment": "545"},
             {
                 "name": "set8",
                 "arguments": [
@@ -21,7 +21,7 @@
                 ],
                 "type": "void"
             },
-            {"comment": "543"},
+            {"comment": "546"},
             {
                 "name": "set16",
                 "arguments": [
@@ -36,7 +36,7 @@
                 ],
                 "type": "void"
             },
-            {"comment": "544"},
+            {"comment": "547"},
             {
                 "name": "set32",
                 "arguments": [
@@ -51,7 +51,7 @@
                 ],
                 "type": "void"
             },
-            {"comment": "545"},
+            {"comment": "548"},
             {
                 "name": "setLittleEndian32",
                 "arguments": [
@@ -66,7 +66,7 @@
                 ],
                 "type": "void"
             },
-            {"comment": "546"},
+            {"comment": "549"},
             {
                 "name": "setLittleEndian16",
                 "arguments": [
@@ -81,7 +81,7 @@
                 ],
                 "type": "void"
             },
-            {"comment": "547"},
+            {"comment": "550"},
             {
                 "name": "setBigEndian32",
                 "arguments": [
@@ -96,7 +96,7 @@
                 ],
                 "type": "void"
             },
-            {"comment": "548"},
+            {"comment": "551"},
             {
                 "name": "setBigEndian16",
                 "arguments": [
@@ -155,7 +155,7 @@
                 ],
                 "type": "int"
             },
-            {"comment": "549"},
+            {"comment": "552"},
             {
                 "name": "split2",
                 "arguments": [
@@ -202,7 +202,7 @@
                 ],
                 "type": "Memory"
             },
-            {"comment": "550"},
+            {"comment": "553"},
             {
                 "name": "joinPrevious",
                 "type": "Memory"
@@ -215,7 +215,7 @@
                 "name": "joinAll",
                 "type": "Memory"
             },
-            {"comment": "551"},
+            {"comment": "554"},
             {
                 "name": "map",
                 "arguments": [{
@@ -224,7 +224,7 @@
                 }],
                 "type": "Object"
             },
-            {"comment": "552"},
+            {"comment": "555"},
             {
                 "name": "revoke",
                 "type": "Memory"

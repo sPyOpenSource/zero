@@ -6,19 +6,19 @@
     {
         "extends": " FirstLevelIrqHandler",
         "children": [
-            {"comment": "531"},
-            {"comment": "532"},
-            {"comment": "533"},
+            {"comment": "534"},
+            {"comment": "535"},
+            {"comment": "536"},
             {
                 "name": "activate_currDomain",
                 "type": "void"
             },
-            {"comment": "534"},
+            {"comment": "537"},
             {
                 "name": "activate_nextDomain",
                 "type": "void"
             },
-            {"comment": "535"},
+            {"comment": "538"},
             {
                 "name": "registerDomain",
                 "arguments": [{
@@ -27,7 +27,7 @@
                 }],
                 "type": "void"
             },
-            {"comment": "536"},
+            {"comment": "539"},
             {
                 "name": "unregisterDomain",
                 "arguments": [{
@@ -36,12 +36,12 @@
                 }],
                 "type": "void"
             },
-            {"comment": "537"},
+            {"comment": "540"},
             {
                 "name": "dump",
                 "type": "void"
             },
-            {"comment": "538"},
+            {"comment": "541"},
             {
                 "name": "setTimeSlice",
                 "arguments": [
@@ -56,8 +56,8 @@
                 ],
                 "type": "void"
             },
-            {"comment": "539"},
-            {"comment": "540"},
+            {"comment": "542"},
+            {"comment": "543"},
             {
                 "name": "registered",
                 "arguments": [{

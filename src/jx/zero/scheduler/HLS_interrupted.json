@@ -4,13 +4,13 @@
         "language": "java"
     },
     {"type": "import jx.zero.CPUState"},
-    {"comment": "612"},
+    {"comment": "615"},
     {
         "children": [
-            {"comment": "613"},
-            {"comment": "614"},
-            {"comment": "615"},
             {"comment": "616"},
+            {"comment": "617"},
+            {"comment": "618"},
+            {"comment": "619"},
             {
                 "name": "interrupted",
                 "arguments": [{

@@ -6,7 +6,7 @@
     {
         "extends": " Portal ",
         "children": [
-            {"comment": "560"},
+            {"comment": "563"},
             {
                 "name": "get8",
                 "arguments": [{
@@ -15,7 +15,7 @@
                 }],
                 "type": "byte"
             },
-            {"comment": "561"},
+            {"comment": "564"},
             {
                 "name": "get16",
                 "arguments": [{
@@ -24,7 +24,7 @@
                 }],
                 "type": "short"
             },
-            {"comment": "562"},
+            {"comment": "565"},
             {
                 "name": "get32",
                 "arguments": [{
@@ -33,7 +33,7 @@
                 }],
                 "type": "int"
             },
-            {"comment": "563"},
+            {"comment": "566"},
             {
                 "name": "getLittleEndian32",
                 "arguments": [{
@@ -42,7 +42,7 @@
                 }],
                 "type": "int"
             },
-            {"comment": "564"},
+            {"comment": "567"},
             {
                 "name": "getLittleEndian16",
                 "arguments": [{
@@ -125,7 +125,7 @@
                 ],
                 "type": "ReadOnlyMemory"
             },
-            {"comment": "565"},
+            {"comment": "568"},
             {
                 "name": "size",
                 "type": "int"

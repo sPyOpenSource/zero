@@ -21,7 +21,7 @@
                 }],
                 "type": "boolean"
             },
-            {"comment": "577"},
+            {"comment": "580"},
             {
                 "name": "getInstanceSize",
                 "type": "int"

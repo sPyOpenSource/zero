@@ -5,7 +5,7 @@
     },
     {
         "extends": " MappedObject ",
-        "children": [{"comment": "541"}],
+        "children": [{"comment": "544"}],
         "modifier": ["public"],
         "name": " MappedLittleEndianObject ",
         "type": " interface"

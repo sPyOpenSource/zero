@@ -3,7 +3,7 @@
         "package": " jx.zero",
         "language": "java"
     },
-    {"comment": "579"},
+    {"comment": "582"},
     {
         "children": [
             {
@@ -31,7 +31,7 @@
                 }],
                 "type": "int"
             },
-            {"comment": "580"},
+            {"comment": "583"},
             {
                 "children": [
                     {"type": " srcOffset += count"},
@@ -96,7 +96,7 @@
                 ],
                 "type": "void"
             },
-            {"comment": "581"},
+            {"comment": "584"},
             {
                 "children": [
                     {"type": " srcOffset += count"},
@@ -161,7 +161,7 @@
                 ],
                 "type": "void"
             },
-            {"comment": "582"},
+            {"comment": "585"},
             {
                 "children": [
                     {"type": " srcOffset += count"},
