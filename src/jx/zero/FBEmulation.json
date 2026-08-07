@@ -26,17 +26,17 @@
                 "name": "getBitsPerPixel",
                 "type": "int"
             },
-            {"comment": "496"},
+            {"comment": "269"},
             {
                 "name": "update",
                 "type": "void"
             },
-            {"comment": "497"},
+            {"comment": "270"},
             {
                 "name": "inputDevicesAvailable",
                 "type": "boolean"
             },
-            {"comment": "498"},
+            {"comment": "271"},
             {
                 "name": "checkEvent",
                 "arguments": [{

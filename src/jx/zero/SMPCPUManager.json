@@ -4,7 +4,7 @@
         "language": "java"
     },
     {"type": "import jx.zero.scheduler.HighLevelScheduler"},
-    {"comment": "569"},
+    {"comment": "342"},
     {
         "extends": " Portal ",
         "children": [
@@ -110,7 +110,7 @@
                 }],
                 "type": "int"
             },
-            {"comment": "570"},
+            {"comment": "343"},
             {
                 "name": "test2",
                 "arguments": [{
@@ -119,7 +119,7 @@
                 }],
                 "type": "int"
             },
-            {"comment": "570"},
+            {"comment": "343"},
             {
                 "name": "test_setAPICTimer",
                 "arguments": [{
@@ -128,7 +128,7 @@
                 }],
                 "type": "int"
             },
-            {"comment": "570"},
+            {"comment": "343"},
             {
                 "name": "dump",
                 "arguments": [{
@@ -137,8 +137,8 @@
                 }],
                 "type": "void"
             },
-            {"comment": "570"},
-            {"comment": "574"},
+            {"comment": "343"},
+            {"comment": "347"},
             {
                 "name": "createMutex",
                 "type": "Mutex"

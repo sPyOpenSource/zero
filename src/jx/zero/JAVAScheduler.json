@@ -21,7 +21,7 @@
                 "name": "dump",
                 "type": "void"
             },
-            {"comment": "517"},
+            {"comment": "290"},
             {
                 "name": "init",
                 "arguments": [{
@@ -30,7 +30,7 @@
                 }],
                 "type": "void"
             },
-            {"comment": "518"}
+            {"comment": "291"}
         ],
         "modifier": ["public"],
         "name": " JAVAScheduler",

@@ -3,7 +3,7 @@
         "package": " jx.zero",
         "language": "java"
     },
-    {"comment": "460"},
+    {"comment": "233"},
     {
         "extends": " Portal ",
         "children": [
@@ -85,22 +85,22 @@
                 "name": "getCPUState",
                 "type": "CPUState"
             },
-            {"comment": "461"},
+            {"comment": "234"},
             {
                 "name": "block",
                 "type": "void"
             },
-            {"comment": "462"},
+            {"comment": "235"},
             {
                 "name": "blockIfNotUnblocked",
                 "type": "void"
             },
-            {"comment": "463"},
+            {"comment": "236"},
             {
                 "name": "clearUnblockFlag",
                 "type": "void"
             },
-            {"comment": "464"},
+            {"comment": "237"},
             {
                 "name": "waitUntilBlocked",
                 "arguments": [{
@@ -109,7 +109,7 @@
                 }],
                 "type": "void"
             },
-            {"comment": "465"},
+            {"comment": "238"},
             {
                 "name": "join",
                 "arguments": [{
@@ -118,7 +118,7 @@
                 }],
                 "type": "void"
             },
-            {"comment": "466"},
+            {"comment": "239"},
             {
                 "name": "unblock",
                 "arguments": [{
@@ -219,7 +219,7 @@
                 ],
                 "type": "CAS"
             },
-            {"comment": "467"},
+            {"comment": "240"},
             {
                 "name": "getClass",
                 "arguments": [{
@@ -236,12 +236,12 @@
                 }],
                 "type": "VMClass"
             },
-            {"comment": "468"},
+            {"comment": "241"},
             {
                 "name": "getVMObject",
                 "type": "VMObject"
             },
-            {"comment": "469"},
+            {"comment": "242"},
             {
                 "name": "assertInterruptEnabled",
                 "type": "void"
@@ -254,12 +254,12 @@
                 }],
                 "type": "void"
             },
-            {"comment": "470"},
+            {"comment": "243"},
             {
                 "name": "reboot",
                 "type": "void"
             },
-            {"comment": "471"},
+            {"comment": "244"},
             {
                 "name": "getStackDepth",
                 "type": "int"
@@ -296,7 +296,7 @@
                 }],
                 "type": "int"
             },
-            {"comment": "472"},
+            {"comment": "245"},
             {
                 "name": "inhibitScheduling",
                 "type": "void"

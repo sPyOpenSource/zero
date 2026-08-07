@@ -4,13 +4,13 @@
         "language": "java"
     },
     {"type": "import jx.zero.CPUState"},
-    {"comment": "586"},
+    {"comment": "359"},
     {
         "children": [
-            {"comment": "587"},
-            {"comment": "588"},
-            {"comment": "589"},
-            {"comment": "590"},
+            {"comment": "360"},
+            {"comment": "361"},
+            {"comment": "362"},
+            {"comment": "363"},
             {
                 "name": "startGCThread",
                 "arguments": [
@@ -25,8 +25,8 @@
                 ],
                 "type": "void"
             },
-            {"comment": "591"},
-            {"comment": "592"},
+            {"comment": "364"},
+            {"comment": "365"},
             {
                 "name": "unblockedGCThread",
                 "arguments": [{
@@ -35,8 +35,8 @@
                 }],
                 "type": "void"
             },
-            {"comment": "593"},
-            {"comment": "594"},
+            {"comment": "366"},
+            {"comment": "367"},
             {
                 "name": "destroyedGCThread",
                 "arguments": [{

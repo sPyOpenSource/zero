@@ -3,13 +3,13 @@
         "package": " jx.zero",
         "language": "java"
     },
-    {"comment": "500"},
+    {"comment": "273"},
     {
         "extends": " Portal ",
         "children": [
-            {"comment": "501"},
-            {"comment": "502"},
-            {"comment": "503"},
+            {"comment": "274"},
+            {"comment": "275"},
+            {"comment": "276"},
             {
                 "name": "activateThread",
                 "arguments": [{
@@ -18,9 +18,9 @@
                 }],
                 "type": "void"
             },
-            {"comment": "504"},
-            {"comment": "505"},
-            {"comment": "506"},
+            {"comment": "277"},
+            {"comment": "278"},
+            {"comment": "279"},
             {
                 "name": "activateService",
                 "arguments": [{
@@ -29,18 +29,18 @@
                 }],
                 "type": "boolean"
             },
-            {"comment": "507"},
-            {"comment": "508"},
+            {"comment": "280"},
+            {"comment": "281"},
             {
                 "name": "yield",
                 "type": "void"
             },
-            {"comment": "509"},
+            {"comment": "282"},
             {
                 "name": "clearMyRunnableFlag",
                 "type": "void"
             },
-            {"comment": "510"},
+            {"comment": "283"},
             {
                 "name": "getTimeBaseInMicros",
                 "type": "int"
@@ -71,7 +71,7 @@
                 ],
                 "type": "void"
             },
-            {"comment": "511"},
+            {"comment": "284"},
             {
                 "name": "storeThreadInfo",
                 "arguments": [
@@ -94,7 +94,7 @@
                 }],
                 "type": "Object"
             },
-            {"comment": "512"},
+            {"comment": "285"},
             {
                 "name": "dumpThread",
                 "arguments": [{

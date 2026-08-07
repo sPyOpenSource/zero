@@ -4,16 +4,16 @@
         "language": "java"
     },
     {"type": "import jx.zero.scheduler.HighLevelScheduler"},
-    {"comment": "577"},
+    {"comment": "350"},
     {
         "extends": " Portal ",
         "children": [
-            {"comment": "578"},
+            {"comment": "351"},
             {
                 "name": "emptyMethod",
                 "type": "void"
             },
-            {"comment": "579"},
+            {"comment": "352"},
             {
                 "name": "prepareSchedulerMethod_registered_",
                 "arguments": [

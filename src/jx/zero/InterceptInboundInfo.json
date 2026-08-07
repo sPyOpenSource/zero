@@ -22,7 +22,7 @@
                 "name": "getServiceObject",
                 "type": "VMObject"
             },
-            {"comment": "516"},
+            {"comment": "289"},
             {
                 "name": "getFirstParameter",
                 "arguments": [{

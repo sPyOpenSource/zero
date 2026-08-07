@@ -162,7 +162,7 @@
                     {"type": " this.stepping = stepping"},
                     {"type": " this.brand = brand"},
                     {"type": " this.features = features"},
-                    {"comment": "459"}
+                    {"comment": "232"}
                 ],
                 "arguments": [
                     {

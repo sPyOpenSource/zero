@@ -72,7 +72,7 @@
                 ],
                 "type": "void"
             },
-            {"comment": "479"}
+            {"comment": "252"}
         ],
         "modifier": ["public"],
         "name": " Clock ",

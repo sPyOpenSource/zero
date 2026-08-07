@@ -20,7 +20,7 @@
                 ],
                 "type": "void"
             },
-            {"comment": "480"},
+            {"comment": "253"},
             {
                 "name": "load",
                 "arguments": [{
@@ -29,7 +29,7 @@
                 }],
                 "type": "int"
             },
-            {"comment": "481"},
+            {"comment": "254"},
             {
                 "name": "setInheritThread",
                 "arguments": [{
