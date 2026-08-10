@@ -3,7 +3,7 @@
         "package": " jx.zero",
         "language": "java"
     },
-    {"comment": "292"},
+    {"comment": "519"},
     {
         "extends": " Portal ",
         "children": [
@@ -19,12 +19,12 @@
                 }],
                 "type": "void"
             },
-            {"comment": "293"},
+            {"comment": "520"},
             {
                 "name": "getIdleThread",
                 "type": "CPUState"
             },
-            {"comment": "294"},
+            {"comment": "521"},
             {
                 "name": "setTimeslice",
                 "arguments": [{
@@ -33,8 +33,8 @@
                 }],
                 "type": "void"
             },
-            {"comment": "295"},
-            {"comment": "296"},
+            {"comment": "522"},
+            {"comment": "523"},
             {
                 "name": "storeThreadInfo",
                 "arguments": [
@@ -57,7 +57,7 @@
                 }],
                 "type": "Object"
             },
-            {"comment": "297"},
+            {"comment": "524"},
             {
                 "name": "getThreadDomain",
                 "arguments": [{
@@ -66,7 +66,7 @@
                 }],
                 "type": "Domain"
             },
-            {"comment": "298"},
+            {"comment": "525"},
             {
                 "name": "dumpThread",
                 "arguments": [{

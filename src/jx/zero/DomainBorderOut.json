@@ -6,7 +6,7 @@
     {
         "extends": " DomainBorder, Portal ",
         "children": [
-            {"comment": "261"},
+            {"comment": "488"},
             {
                 "name": "outBound",
                 "arguments": [{

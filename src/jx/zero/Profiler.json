@@ -18,7 +18,7 @@
                 "name": "startCalibration",
                 "type": "void"
             },
-            {"comment": "335"},
+            {"comment": "562"},
             {
                 "name": "endCalibration",
                 "arguments": [

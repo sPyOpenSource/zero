@@ -6,7 +6,7 @@
     {
         "extends": " Portal ",
         "children": [
-            {"comment": "262"},
+            {"comment": "489"},
             {
                 "name": "allocObject",
                 "arguments": [{
@@ -15,7 +15,7 @@
                 }],
                 "type": "int"
             },
-            {"comment": "263"},
+            {"comment": "490"},
             {
                 "name": "allocArray",
                 "arguments": [
@@ -30,7 +30,7 @@
                 ],
                 "type": "int"
             },
-            {"comment": "264"},
+            {"comment": "491"},
             {
                 "name": "allocTCB",
                 "arguments": [{
@@ -39,7 +39,7 @@
                 }],
                 "type": "int"
             },
-            {"comment": "265"},
+            {"comment": "492"},
             {
                 "name": "allocStack",
                 "arguments": [{
@@ -48,7 +48,7 @@
                 }],
                 "type": "int"
             },
-            {"comment": "266"},
+            {"comment": "493"},
             {
                 "name": "allocStaticFields",
                 "arguments": [{
@@ -57,7 +57,7 @@
                 }],
                 "type": "int"
             },
-            {"comment": "267"},
+            {"comment": "494"},
             {
                 "name": "allocCode",
                 "arguments": [{
@@ -66,7 +66,7 @@
                 }],
                 "type": "int"
             },
-            {"comment": "268"},
+            {"comment": "495"},
             {
                 "name": "threadExiting",
                 "type": "void"

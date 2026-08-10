@@ -4,13 +4,13 @@
         "language": "java"
     },
     {"type": "import jx.zero.CPUState"},
-    {"comment": "383"},
+    {"comment": "610"},
     {
         "children": [
-            {"comment": "384"},
-            {"comment": "385"},
-            {"comment": "386"},
-            {"comment": "387"},
+            {"comment": "611"},
+            {"comment": "612"},
+            {"comment": "613"},
+            {"comment": "614"},
             {
                 "name": "destroyed",
                 "arguments": [{

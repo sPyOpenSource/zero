@@ -5,13 +5,13 @@
     },
     {"type": "import jx.zero.CPUState"},
     {"type": "import jx.zero.CPUStateLink"},
-    {"comment": "378"},
+    {"comment": "605"},
     {
         "children": [
-            {"comment": "379"},
-            {"comment": "380"},
-            {"comment": "381"},
-            {"comment": "382"},
+            {"comment": "606"},
+            {"comment": "607"},
+            {"comment": "608"},
+            {"comment": "609"},
             {
                 "name": "blockedInService",
                 "arguments": [
